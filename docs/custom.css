@@ -1,0 +1,13 @@
+.md-typeset h1 {
+  /*font-size: 24pt;*/
+  font-weight: bold;
+  color: #000;
+  border-bottom: solid 2px #000;
+  padding-bottom: 5px;
+}
+.md-typeset h2 {
+  border-bottom: 1px dotted #888;
+}
+
+/* https://sharehtml.site/ */
+.link-box{border:1px solid #e1e1e1;padding:10px;display:flex;margin:30px}.link-box:hover{background-color:#f3f3f3;-webkit-transition:background-color .35s;transition:background-color .35s}.img-box{width:25%;float:left}.img-box div{min-height:170px;background-size:cover;background-position:center center}.text-box{width:75%;float:left;padding-left:20px;line-height:1.7;margin:0}.text-box .title{font-size:18px;font-weight:600;color:#428bca;padding:0;margin:0}.text-box .description{font-size:15px;color:#333;padding:0}@media only screen and (max-width:479px){.img-box div{min-height:80px}.text-box{margin-left:10px;line-height:1.5}.text-box .title{font-size:13px;margin:0}.text-box .description{font-size:11px;margin-top:5px}}

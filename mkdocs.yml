@@ -1,0 +1,40 @@
+site_name: M5StickC非公式日本語リファレンス
+site_url: 'https://lang-ship.com/reference/unofficial/M5StickC/'
+
+#repo_name: 'squidfunk/mkdocs-material'
+#repo_url: 'https://github.com/squidfunk/mkdocs-material'
+
+#nav:
+#    - Home: index.md
+#    - About: about.md
+
+#extra:
+#  disqus: 'lang-ship'
+
+google_analytics:
+  - 'UA-113491280-1'
+  - 'auto'
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
+
+theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  language: 'ja'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'cloud'
+  feature:
+    tabs: true
+
+extra_css:
+  - "custom.css"
