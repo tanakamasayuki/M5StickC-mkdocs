@@ -47,6 +47,7 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.07.17 [M5StickCでGROVEのアナログ出力をBluetoothSerialで飛ばす](https://lang-ship.com/blog/?p=714)
 - 2019.07.12 [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作](https://lang-ship.com/blog/?p=704)
 - 2019.07.11 [M5StickCのButtonクラスを調べてみた](https://lang-ship.com/blog/?p=699)
 - 2019.07.10 [M5StickC 0.0.7のAXP192追加関数を調べてみた](https://lang-ship.com/blog/?p=696)
