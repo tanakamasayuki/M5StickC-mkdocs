@@ -40,7 +40,7 @@ Javaで動作しているので、Arduino IDEとは開発言語が違います�
 ## GSR(Galvanic Skin Response)センサとは？
 皮膚への電流の流れやすさを測定するセンサで、汗などの影響によって測定値が変動します。手元にあったので利用しただけで、実際のところあまり使い所がありません。
 
-## M5StickC側のコード
+## M5StickC側のコード [[Github](https://github.com/tanakamasayuki/M5StickC-examples/blob/master/RealtimeDataLog/M5StickCBluetoothSerialGroveAnalogInput/M5StickCBluetoothSerialGroveAnalogInput.ino)]
 ```
 #include <M5StickC.h>
 #include <BluetoothSerial.h>
@@ -86,7 +86,7 @@ delay(500)なので、約0.5秒間隔での送信になります。どんどん�
 
 ちなみに、このコードで約25分の動作が可能です。LCDのバックライトを暗くするとか、ボタンで消せるようにするなどで、もう少し動作時間を伸ばすことは可能だと思います。
 
-## Processing側のコード
+## Processing側のコード [[Github](https://github.com/tanakamasayuki/M5StickC-examples/blob/master/RealtimeDataLog/SerialLogger/SerialLogger.pde)]
 ```
 import processing.serial.*;
 import controlP5.*;
@@ -316,10 +316,6 @@ String createFileName() {
 白が測定値で、緑が移動平均です。Bluetooth Serialの場合には速度は何を選択しても通信が可能で、シリアルポートを選択すると受信を開始します。
 
 プログラムのあるディレクトリにCSVファイルが出力されますので、そこに受信時間と受信した値が保存されます。
-
-## サンプルスケッチ
-
-- [https://github.com/tanakamasayuki/M5StickC-examples/tree/master/RealtimeDataLog](https://github.com/tanakamasayuki/M5StickC-examples/tree/master/RealtimeDataLog)
 
 ## 関連ブログ
 - [M5StickCでGROVEのアナログ出力をBluetoothSerialで飛ばす](https://lang-ship.com/blog/?p=714)

@@ -24,7 +24,7 @@ Bluetooth Serial以外はより新しいBLEを利用したほうが多くの場�
 
 携帯電話の発着信や通話を行うプロファイル。
 
-## Bluetooth Serialのサンプル
+## Bluetooth Serialのサンプル [[Github](https://github.com/tanakamasayuki/M5StickC-examples/blob/master/BluetoothSerial/BluetoothSerial.ino)]
 ```
 #include <M5StickC.h>
 #include <BluetoothSerial.h>

@@ -164,7 +164,7 @@
 	}
 	
 
-## サンプルスケッチ
+## サンプルスケッチ [[Github](https://github.com/tanakamasayuki/M5StickC-examples/blob/master/ButtonTest/ButtonTest.ino)]
 ```
 #include <M5StickC.h>
 
