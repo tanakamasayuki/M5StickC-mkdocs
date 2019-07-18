@@ -1,6 +1,8 @@
 # Home
 
-オフィシャル情報 [Github](https://github.com/m5stack/M5StickC).
+本資料は個人的に取りまとめた資料であり、オフィシャル情報ではありません。
+
+オフィシャル情報 [[Github](https://github.com/m5stack/M5StickC)].
 
 ![M5StickC](images/M5StickC.png)
 
