@@ -64,6 +64,6 @@ BluetoothSerialを宣言してSerialBT.println()などで通常のシリアル�
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/bluetooth/classic_bt.html)
 
-## 関連ブログ
+## 利用例
 
-- [M5StickCでGROVEのアナログ出力をBluetoothSerialで飛ばす](https://lang-ship.com/blog/?p=714)
+- [リアルタイムデータロガー](../../UseCase/DataLogRealtime/)

@@ -109,9 +109,8 @@ void loop() {
 }
 ```
 
+## 利用例
 
+- [RTCの現在日時をNTPサーバーからセット](../../UseCase/RTCSetNTP/)
+- [RTCの現在日時をWebブラウザからセット](../../UseCase/RTCSetWeb/)
 
-## 関連ブログ
-
-- [M5StickCのRTCをNTPサーバーからセットする](https://lang-ship.com/blog/?p=563)
-- [M5StickCのRTCをブラウザからセットする](https://lang-ship.com/blog/?p=566)
