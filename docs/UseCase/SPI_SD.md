@@ -1,4 +1,4 @@
-# SD
+# SPI接続のSDカードを使う
 
 SPI接続のSDカードのみM5StickCでは利用が可能です。
 
@@ -80,5 +80,5 @@ SDカードをマウントしてから種別と容量を取得するだけのサ
 
 今回4線全部利用していますが、CSはGNDに落とすことで使わなくすることができますが、SD.begin()で何らかのピンを指定しないといけないので、33を割り振っています。
 
-## リファレンス
-- [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/storage/sdmmc.html)
+## 関連ブログ
+- [M5StickCでSPI接続のSDカードを使う](https://lang-ship.com/blog/?p=721)

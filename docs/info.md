@@ -47,6 +47,7 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.07.19 [M5StickCでSPI接続のSDカードを使う](https://lang-ship.com/blog/?p=721)
 - 2019.07.18 [M5StickCのQRCodeを調べてみた](https://lang-ship.com/blog/?p=717)
 - 2019.07.17 [M5StickCでGROVEのアナログ出力をBluetoothSerialで飛ばす](https://lang-ship.com/blog/?p=714)
 - 2019.07.12 [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作](https://lang-ship.com/blog/?p=704)
