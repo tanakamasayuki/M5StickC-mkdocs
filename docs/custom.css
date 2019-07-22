@@ -6,7 +6,15 @@
   padding-bottom: 5px;
 }
 .md-typeset h2 {
+  border-bottom: 1px solid #888;
+}
+
+.md-typeset h3 {
   border-bottom: 1px dotted #888;
+}
+
+.md-typeset code, .md-typeset pre {
+    font-size: 100%;
 }
 
 /* https://sharehtml.site/ */

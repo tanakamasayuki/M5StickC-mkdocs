@@ -6,6 +6,12 @@
 
 - TFTスクリーン [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
 
+
+## メンバー
+
+{! M5Display.md !}
+{! TFT_eSPI.md !}
+
 ## 関連ブログ
 - [M5StickCのDisplay周り解析](https://lang-ship.com/blog/?p=590)
 - [[実験] M5StickC組み込み漢字をテスト](https://lang-ship.com/blog/?p=602)

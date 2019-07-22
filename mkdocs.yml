@@ -20,6 +20,9 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - markdown_include.include:
+      base_path: includes
+  - pymdownx.superfences
 
 theme:
   name: null
@@ -38,3 +41,4 @@ theme:
 
 extra_css:
   - "custom.css"
+
