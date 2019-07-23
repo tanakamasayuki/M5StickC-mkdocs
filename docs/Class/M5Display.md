@@ -2,6 +2,10 @@
 
 ## 概要
 
+画面制御クラスです。非常にメンバーが多いので、概要を別ページにまとめました。
+
+- [M5Displayクラスの使い方](../../Tips/M5Display/)
+
 ## データシート
 
 - TFTスクリーン [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)

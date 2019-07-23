@@ -12,6 +12,9 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
+- 2019.07.21 [M5StickCで天気通知システムを作る](https://qiita.com/issi030/items/89d11c185ee78120d9d7) @issi030
+- 2019.07.21 [M5StickC用のIO拡張モジュールを作ってみた。](http://sasapea.mydns.jp/2019/07/21/m5stickc-io/) SASAPEA'S LAB
+- 2019.07.20 [M5StickC用のIR送受信モジュールを作ってみた。](http://sasapea.mydns.jp/2019/07/20/mtstickc-ir-module/) SASAPEA'S LAB
 - 2019.07.15 [M5Stick-CでJsonをPOSTする](https://qiita.com/poruruba/items/4bf6a52520e431a8f4a5) @poruruba
 - 2019.07.14 [M5StickC を赤外線リモコンにする](https://kuratsuki.net/2019/07/m5stickc-%e3%82%92%e8%b5%a4%e5%a4%96%e7%b7%9a%e3%83%aa%e3%83%a2%e3%82%b3%e3%83%b3%e3%81%ab%e3%81%99%e3%82%8b/) くらつきねっと
 - 2019.07.14 [M5StickC Wi-Fiパスワード入力補助＆複数アクセスポイント接続ツール](https://qiita.com/Kaz_Macintosh/items/78bf142c37845d3ab3e6) @Kaz_Macintosh
@@ -45,6 +48,10 @@ M5StickC関係のブログ等の情報収集
 - 2019.05.06 [M5StickCの小ネタ](https://tech.144lab.com/entry/M5StickC_Tips) 144Labグループ開発者ブログ
 - 2019.04.10 [M5StickCで赤外線リモコン](http://pointofviewpoint.air-nifty.com/blog/2019/04/post-04d340.html) point of view point
 
+## Twitter
+
+[Twitter検索](https://twitter.com/search?f=tweets&vertical=default&q=M5StickC&src=typd)
+
 ## Lang-shipブログ
 
 - 2019.07.19 [M5StickCでSPI接続のSDカードを使う](https://lang-ship.com/blog/?p=721)
@@ -75,3 +82,4 @@ M5StickC関係のブログ等の情報収集
 - 2019.06.10 [M5StickCのピン配置を調べる](https://lang-ship.com/blog/?p=536) Lang-ship
 - 2019.06.08 [M5StickCのバッテリー管理AXP192を調べる](https://lang-ship.com/blog/?p=523) Lang-ship
 - 2019.06.07 [M5StickCが届きました](https://lang-ship.com/blog/?p=512) Lang-ship
+

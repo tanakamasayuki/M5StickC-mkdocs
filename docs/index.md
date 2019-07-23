@@ -17,7 +17,7 @@
 
 
 ## APIリファレンス
-- [M5StickC 0.0.5](https://lang-ship.com/reference/M5StickC/0.0.5/)
+- [M5StickC 0.0.5](https://lang-ship.com/reference/M5StickC/0.0.7/)
 - [ESP32 1.0.2](https://lang-ship.com/reference/ESP32/1.0.2/)
 - [Arduino日本語](https://www.arduino.cc/reference/jp/) ※不完全
 - [Arduino英語](https://www.arduino.cc/reference/en/)

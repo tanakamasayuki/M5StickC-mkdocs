@@ -1,68 +1,68 @@
-###  Second
-
+### 秒 Second
+関数で更新されます
 ```c
 uint8_t RTC::Second
 ```
 
 
-###  Minute
-
+### 分 Minute
+関数で更新されます
 ```c
 uint8_t RTC::Minute
 ```
 
 
-###  Hour
-
+### 時間 Hour
+関数で更新されます
 ```c
 uint8_t RTC::Hour
 ```
 
 
-###  Week
-
+### 曜日(0:日, 1:月, 2:火, 3:水, 4:木, 5:金, 6:土) Week
+現状更新されないので利用できません
 ```c
 uint8_t RTC::Week
 ```
 
 
-###  Day
-
+### 日 Day
+現状更新されないので利用できません
 ```c
 uint8_t RTC::Day
 ```
 
 
-###  Month
-
+### 月 Month
+現状更新されないので利用できません
 ```c
 uint8_t RTC::Month
 ```
 
 
-###  Year
-
+### 年 Year
+現状更新されないので利用できません
 ```c
 uint8_t RTC::Year
 ```
 
 
-###  DateString
-
+### 年月日文字列 DateString
+現状更新されないので利用できません
 ```c
 uint8_t RTC::DateString[9]
 ```
 
 
-###  TimeString
-
+### 時間文字列 TimeString
+現状更新されないので利用できません
 ```c
 uint8_t RTC::TimeString[9]
 ```
 
 
-###  asc
-
+### 日時データ asc
+関数で更新されます
 ```c
 uint8_t RTC::asc[14]
 ```
