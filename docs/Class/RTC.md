@@ -11,7 +11,7 @@
 
 ## メンバー
 
-{! RTC.md !}
+{! Class/M5StickC/RTC.md !}
 
 ## サンプルスケッチ
 

@@ -9,7 +9,7 @@
 
 ## メンバー
 
-{! Button.md !}
+{! Class/M5StickC/Button.md !}
 
 
 ## サンプルスケッチ [[Github](https://github.com/tanakamasayuki/M5StickC-examples/blob/master/ButtonTest/ButtonTest.ino)]

@@ -6,5 +6,5 @@
 
 ## メンバー
 
-{! TFT_eSprite.md !}
+{! Class/M5StickC/TFT_eSprite.md !}
 

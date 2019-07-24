@@ -13,7 +13,7 @@ I2Cアドレス0x6cで接続されているSH200Qの制御
 
 ## メンバー
 
-{! IMU.md !}
+{! Class/M5StickC/IMU.md !}
 
 
 

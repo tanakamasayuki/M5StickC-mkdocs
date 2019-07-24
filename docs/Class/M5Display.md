@@ -13,8 +13,8 @@
 
 ## メンバー
 
-{! M5Display.md !}
-{! TFT_eSPI.md !}
+{! Class/M5StickC/M5Display.md !}
+{! Class/M5StickC/TFT_eSPI.md !}
 
 ## 関連ブログ
 - [M5StickCのDisplay周り解析](https://lang-ship.com/blog/?p=590)
