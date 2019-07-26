@@ -166,5 +166,12 @@ M5.Lcd.fillTriangle(x0, y0, x1, y1, x2, y2, color);
 
 一般的な描画関数は実装されています。
 
+## 多言語(日本語)表示
+
+標準では行うことができません。
+下記にて、自作ライブラリでefontを利用した多言語フォントの利用方法を説明しています。
+
+- [/UseCase/UnicodeFont](../../UseCase/UnicodeFont/)
+
 ## クラスリファレンス
 - [画面管理(M5Display)](../../Class/M5Display/)
