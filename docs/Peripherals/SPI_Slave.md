@@ -11,7 +11,7 @@ SPI通信のSlave側の機能です。
 
 ## 関数リファレンス
 
-- [/Functions/esp32-hal-spi](../../Functions/esp32-hal-spi/)
+- [Functions/esp32-hal-spi](../../Functions/esp32-hal-spi/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/spi_slave.html)

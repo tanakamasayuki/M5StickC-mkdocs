@@ -30,7 +30,7 @@ void loop() {
 
 ## 関数リファレンス
 
-- [/Functions/esp32-hal-adc](../../Functions/esp32-hal-adc/)
+- [Functions/esp32-hal-adc](../../Functions/esp32-hal-adc/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/adc.html)

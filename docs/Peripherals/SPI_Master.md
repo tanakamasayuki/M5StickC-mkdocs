@@ -42,7 +42,7 @@ M5StickCで追加で利用できるSPIは1系統のみになります。ただ�
 - [ST7735S+ISP液晶](../../Device/SPI/Display/ST7735S/)
 
 ## クラスリファレンス
-- [/Class/ESP32/SPIClass](../../Class/ESP32/SPIClass/)
+- [Class/ESP32/SPIClass](../../Class/ESP32/SPIClass/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/spi_master.html)

@@ -16,7 +16,7 @@ M5StickCでは2つまでのI2Sを利用することが可能ですが、内蔵�
 
 ## 関数リファレンス
 
-- [/Functions/driver/i2s](../../Functions/driver/i2s/)
+- [Functions/driver/i2s](../../Functions/driver/i2s/)
 
 
 ## リファレンス

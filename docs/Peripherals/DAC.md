@@ -40,7 +40,7 @@ IO26からの出力にLEDと抵抗に接続してものをオシロスコープ�
 
 ## 関数リファレンス
 
-- [/Functions/esp32-hal-dac](../../Functions/esp32-hal-dac/)
+- [Functions/esp32-hal-dac](../../Functions/esp32-hal-dac/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/dac.html)

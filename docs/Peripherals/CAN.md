@@ -10,7 +10,7 @@ M5StickCだと通常は使わないプロトコルです。関数も準備され
 
 ## 関数リファレンス
 
-- [/Functions/driver/can](../../Functions/driver/can/)
+- [Functions/driver/can](../../Functions/driver/can/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/can.html)

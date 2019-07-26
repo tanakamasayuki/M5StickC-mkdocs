@@ -41,7 +41,7 @@ PWMは4PIN同時に利用することが可能で、細かい設定はledcSetup(
 
 ## 関数リファレンス
 
-- [/Functions/esp32-hal-ledc](../../Functions/esp32-hal-ledc/)
+- [Functions/esp32-hal-ledc](../../Functions/esp32-hal-ledc/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/ledc.html)

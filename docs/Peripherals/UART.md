@@ -169,7 +169,7 @@ UART自体は簡単に利用することができます。ただし長い距離�
 パソコンと接続するのであればBluetoothSerialを使うことで、速度とエラー処理などの心配がほぼ無くなるのでおすすめです。
 
 ## クラスリファレンス
-- [/Class/ESP32/HardwareSerial](../../Class/ESP32/HardwareSerial/)
+- [Class/ESP32/HardwareSerial](../../Class/ESP32/HardwareSerial/)
 
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/uart.html)
