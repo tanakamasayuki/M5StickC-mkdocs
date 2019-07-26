@@ -41,6 +41,10 @@ void loop() {
 
 touchRead()は触ると数値が小さくなるので、触らないときの数字と、触って下がったときの数字の中間か、やや低い値をthresholdに設定してください。
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-touch](../../Functions/esp32-hal-touch/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/touch_pad.html)
 

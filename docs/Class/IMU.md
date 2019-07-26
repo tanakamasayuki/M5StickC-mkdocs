@@ -13,13 +13,169 @@ I2Cアドレス0x6cで接続されているSH200Qの制御
 
 ## メンバー
 
-{! Class/M5StickC/IMU.md !}
+### 加速度スケール aRes
+
+```c
+float IMU::aRes
+```
+
+
+### ジャイロスケール gRes
+
+```c
+float IMU::gRes
+```
+
+
+### コンストラクタ IMU()
+処理無し
+```c
+IMU::IMU()
+```
 
 
 
+### I2Cから指定バイト読み出し I2C_Read_NBytes()
+内部関数のため、通常は利用しない
+```c
+void IMU::I2C_Read_NBytes(uint8_t driver_Addr, uint8_t start_Addr, uint8_t number_Bytes, uint8_t *read_Buffer)
+```
+
+!!! summary "引数"
+	- uint8_t `driver_Addr` 対象I2Cアドレス
+	- uint8_t `start_Addr` 対象レジスタアドレス
+	- uint8_t `number_Bytes` 対象バイト数
+	- uint8_t * `read_Buffer` 読み込みバッファ
 
 
 
+### I2Cから指定バイト書き込み I2C_Write_NBytes()
+内部関数のため、通常は利用しない
+```c
+void IMU::I2C_Write_NBytes(uint8_t driver_Addr, uint8_t start_Addr, uint8_t number_Bytes, uint8_t *write_Buffer)
+```
+
+!!! summary "引数"
+	- uint8_t `driver_Addr` 対象I2Cアドレス
+	- uint8_t `start_Addr` 対象レジスタアドレス
+	- uint8_t `number_Bytes` 対象バイト数
+	- uint8_t * `write_Buffer` 書き込みバッファ
+
+
+
+### ADCリセット sh200i_ADCReset()
+内部関数のため、通常は利用しない
+```c
+void IMU::sh200i_ADCReset(void)
+```
+
+
+
+### リセット sh200i_Reset()
+内部関数のため、通常は利用しない
+```c
+void IMU::sh200i_Reset(void)
+```
+
+
+
+### 初期化 Init()
+内部関数のため、通常は利用しない
+```c
+int IMU::Init(void)
+```
+
+!!! note "戻り値"
+	0:成功, -1:失敗
+
+
+### ジャイロのスケール更新 getGres()
+内部関数のため、通常は利用しない
+```c
+void IMU::getGres()
+```
+
+
+
+### 加速度のスケール更新 getAres()
+内部関数のため、通常は利用しない
+```c
+void IMU::getAres()
+```
+
+
+
+### 加速度取得(スケール補正前) getAccelAdc()
+スケール補正されていない取得した値
+```c
+void IMU::getAccelAdc(int16_t *ax, int16_t *ay, int16_t *az)
+```
+
+!!! summary "引数"
+	- int16_t * `ax` X軸加速度(スケール補正前)
+	- int16_t * `ay` Y軸加速度(スケール補正前)
+	- int16_t * `az` Z軸加速度(スケール補正前)
+
+
+
+### ジャイロ取得(スケール補正前) getGyroAdc()
+スケール補正されていない取得した値
+```c
+void IMU::getGyroAdc(int16_t *gx, int16_t *gy, int16_t *gz)
+```
+
+!!! summary "引数"
+	- int16_t * `gx` X軸ジャイロ(スケール補正前)
+	- int16_t * `gy` Y軸ジャイロ(スケール補正前)
+	- int16_t * `gz` Z軸ジャイロ(スケール補正前)
+
+
+
+### 内部温度取得 getTempAdc()
+内部の温度なので気温ではありません
+```c
+void IMU::getTempAdc(int16_t *t)
+```
+
+!!! summary "引数"
+	- int16_t * `t` 温度Step(温度 = 21.0 + 温度Step / 333.87)
+
+
+
+### 加速度取得(スケール補正後) getAccelData()
+スケール補正された値
+```c
+void IMU::getAccelData(float *ax, float *ay, float *az)
+```
+
+!!! summary "引数"
+	- float * `ax` X軸加速度(スケール補正後)
+	- float * `ay` Y軸加速度(スケール補正後)
+	- float * `az` Z軸加速度(スケール補正後)
+
+
+
+### ジャイロ取得(スケール補正後) getGyroData()
+スケール補正された値
+```c
+void IMU::getGyroData(float *gx, float *gy, float *gz)
+```
+
+!!! summary "引数"
+	- float * `gx` X軸ジャイロ(スケール補正後)
+	- float * `gy` Y軸ジャイロ(スケール補正後)
+	- float * `gz` Z軸ジャイロ(スケール補正後)
+
+
+
+### 内部温度取得 getTempData()
+内部の温度なので気温ではありません
+```c
+void IMU::getTempData(float *t)
+```
+
+!!! summary "引数"
+	- float * `t` 温度Step(温度 = 21.0 + 温度Step / 333.87)
 
 
 

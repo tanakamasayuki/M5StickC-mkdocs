@@ -211,6 +211,9 @@ I2Cのアドレススキャナで検証しましたが、使う前にbigin()で�
 
 ただ、複数使うのはトラブルになりそうなので、可能であればピンソケットかGroveのどちらか1系統だけを使ったほうが安全だと思います。
 
+## クラスリファレンス
+- [/Class/ESP32/TwoWire](../../Class/ESP32/TwoWire/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/i2c.html)
 

@@ -2,6 +2,8 @@
 
 本資料は個人的に取りまとめた資料であり、オフィシャル情報ではありません。
 
+横幅を1220ドット以上に広げると、上にナビがでて使いやすいです。
+
 オフィシャル情報 [[Github](https://github.com/m5stack/M5StickC)].
 
 ![M5StickC](images/M5StickC.png)

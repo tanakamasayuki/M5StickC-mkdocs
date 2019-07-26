@@ -39,6 +39,10 @@ PWMは4PIN同時に利用することが可能で、細かい設定はledcSetup(
 
 上記はキャプチャ用に周波数50Hzに落として実験しましたが、上記のように128(50%)を指定するとONとOFFが交互にきて、平均すると半分の電圧相当になります。
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-ledc](../../Functions/esp32-hal-ledc/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/ledc.html)
 

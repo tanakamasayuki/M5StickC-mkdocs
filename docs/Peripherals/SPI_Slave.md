@@ -9,5 +9,9 @@ SPI通信のSlave側の機能です。
 ## 参考サイト
 - [ESP32 で SPI スレーブ通信するときの注意点](https://rabbit-note.com/2019/01/20/esp32-arduino-spi-slave/)
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-spi](../../Functions/esp32-hal-spi/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/spi_slave.html)

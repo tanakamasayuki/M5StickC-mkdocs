@@ -78,6 +78,10 @@ void loop() {
 
 PINをHIGHかLOWに設定します。
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-gpio](../../Functions/esp32-hal-gpio/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/gpio.html)
 

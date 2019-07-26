@@ -28,6 +28,10 @@ void loop() {
 
 戻り値は0(0V)-4095(3.3V)。
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-adc](../../Functions/esp32-hal-adc/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/adc.html)
 

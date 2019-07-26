@@ -38,6 +38,10 @@ void loop() {
 
 IO26からの出力にLEDと抵抗に接続してものをオシロスコープで測定した結果です。若干電圧低下していますが、概ね255で3.3V程度、128でその半分の電圧が出力されています。
 
+## 関数リファレンス
+
+- [/Functions/esp32-hal-dac](../../Functions/esp32-hal-dac/)
+
 ## リファレンス
 - [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/peripherals/dac.html)
 
