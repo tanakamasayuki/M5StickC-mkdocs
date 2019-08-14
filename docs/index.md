@@ -14,6 +14,7 @@
 - TFTスクリーン [[ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)]
 - マイクロフォン [[SPM1423](https://github.com/m5stack/M5-Schematic/blob/master/Core/SPM1423HM4H-B.pdf)]
 - 6-axis IMU [[SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)]
+- 6-axis IMU [[MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)]
 - 電源管理 [[AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)]
 - RTC [[BM8563](http://www.belling.com.cn/media/file_object/bel_product/BM8563/datasheet/BM8563_V1.1_cn.pdf)]
 
@@ -54,5 +55,7 @@
 |-----------------------------|----------|
 | Power Mangement IC (AXP192) | 0x34     |
 | RTC(BM8563)                 | 0x51     |
+| 6-axis IMU (MPU6886)        | 0x68     |
 | 6-axis IMU (SH200Q)         | 0x6C     |
 
+内蔵IMUはSH200QとMPU6886の端末があるので、どちらが搭載されているかは裏側の表示を見て確認してください。

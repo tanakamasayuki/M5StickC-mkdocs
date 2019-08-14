@@ -1,10 +1,10 @@
-# 6軸慣性計測装置(IMU)
+# ジャイロ加速度計(IMU)
 
 ## 概要
 
-6-axis IMUクラス
+初期ロットに搭載されているI2Cアドレス0x6cで接続されている6-axis IMUクラス。
 
-I2Cアドレス0x6cで接続されているSH200Qの制御
+現状MPU6886を搭載しているものがあるので、どちらを搭載していうかを確認してから利用してください。
 
 ## データシート
 
@@ -175,9 +175,7 @@ void IMU::getTempData(float *t)
 ```
 
 !!! summary "引数"
-	- float * `t` 温度Step(温度 = 21.0 + 温度Step / 333.87)
-
-
+	- float * `t` 温度
 
 ## 関連ブログ
 - [M5StickCの6軸IMU(SH200Q)検証](https://lang-ship.com/blog/?p=570)

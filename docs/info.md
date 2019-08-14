@@ -12,18 +12,27 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
-- 2019.07.21 [M5StickCで天気通知システムを作る](https://qiita.com/issi030/items/89d11c185ee78120d9d7) @issi030
+- 2019.08.14 [M5StickCで外気の温度をスマホで確認](https://higenonagaineko.hatenablog.com/entry/2019/08/14/090710) ひげの長いネコ
+- 2019.08.13 [音声による信号通信 Chirp －M5StickC編－](https://homemadegarbage.com/chirp01) HomeMadeGarbage
+- 2019.08.13 [TelloをM5StickCでコントロールするスケッチを作りました](https://qiita.com/Mitsu-Murakita/items/c078752a570bf1295782) @Mitsu-Murakita
+- 2019.07.31 [Wi-FiがないM5StickVを、M5StickCと繋ぎLINEに投稿してみるまでの手順](https://qiita.com/nnn112358/items/5efd926fea20cd6c2c43) @nnn112358
+- 2019.07.29 [赤外線リモコンのデータをM5StickCで受信する](https://qiita.com/TwDaiki/items/64df9953f0eb63e3e8ef) @TwDaiki
+- 2019.07.29 [M5StickCと温度・湿度センサ](https://higenonagaineko.hatenablog.com/entry/2019/07/29/124748) ひげの長いネコ
+- 2019.07.27 [M5Stick-Cでパスワード記憶装置 兼 自動入力装置を作る](https://qiita.com/poruruba/items/6e4e29068a28f5ee1711) @poruruba
 - 2019.07.21 [M5StickC用のIO拡張モジュールを作ってみた。](http://sasapea.mydns.jp/2019/07/21/m5stickc-io/) SASAPEA'S LAB
+- 2019.07.20 [M5StickCで天気通知システムを作る](https://qiita.com/issi030/items/89d11c185ee78120d9d7) @issi030
 - 2019.07.20 [M5StickC用のIR送受信モジュールを作ってみた。](http://sasapea.mydns.jp/2019/07/20/mtstickc-ir-module/) SASAPEA'S LAB
+- 2019.07.15 [M5StickC で倒立振子 Blynk でコントロール ー倒立振子への道 4ー](https://homemadegarbage.com/bala04) HomeMadeGarbage
 - 2019.07.15 [M5Stick-CでJsonをPOSTする](https://qiita.com/poruruba/items/4bf6a52520e431a8f4a5) @poruruba
 - 2019.07.14 [M5StickC を赤外線リモコンにする](https://kuratsuki.net/2019/07/m5stickc-%e3%82%92%e8%b5%a4%e5%a4%96%e7%b7%9a%e3%83%aa%e3%83%a2%e3%82%b3%e3%83%b3%e3%81%ab%e3%81%99%e3%82%8b/) くらつきねっと
-- 2019.07.14 [M5StickC Wi-Fiパスワード入力補助＆複数アクセスポイント接続ツール](https://qiita.com/Kaz_Macintosh/items/78bf142c37845d3ab3e6) @Kaz_Macintosh
+- 2019.07.13 [M5StickC Wi-Fiパスワード入力補助＆複数アクセスポイント接続ツール](https://qiita.com/Kaz_Macintosh/items/78bf142c37845d3ab3e6) @Kaz_Macintosh
 - 2019.07.11 [M5StickCが起動しなくなったら試して見ること。](http://sasapea.mydns.jp/2019/07/11/m5stickc-start-adapter/) SASAPEA'S LAB
 - 2019.07.10 [M5StickCに書き込みができないときの確認事項](https://qiita.com/wamisnet/items/54ce8d676d45ed4f12c7) @wamisnet
 - 2019.07.10 [M5Stick-Car](https://homemadegarbage.com/en/m5stickc-ar) HomeMadeGarbage
 - 2019.07.09 [M5StickC Start Adapter](https://macsbug.wordpress.com/2019/07/09/m5stickc-start-adapter/) macsbug
 - 2019.07.08 [「M5StickC」用壁掛けアダプタを作ったよ！（STLデータ公開有り）](https://kitto-yakudatsu.com/archives/6484) きっと何かに役立つでしょ！？ 
 - 2019.07.06 [M5StickC で開発を行うための Arduino IDE のセットアップ](https://kuratsuki.net/2019/07/m5stickc-%e3%81%a7%e9%96%8b%e7%99%ba%e3%82%92%e8%a1%8c%e3%81%86%e3%81%9f%e3%82%81%e3%81%ae-arduino-ide-%e3%81%ae%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97/) くらつきねっと
+- 2019.07.03 [M5StickC で倒立振子 PID制御編 ー倒立振子への道 3ー](https://homemadegarbage.com/bala03) HomeMadeGarbage
 - 2019.07.03 [M5StickCでLINE Thingsの自動通信機能を試してみた](https://qiita.com/h-takauma/items/b9cdc48259879a37b6b2) @h-takauma
 - 2019.06.29 [M5StickCで赤外線リモコンデータを送受信してみた。（汎用型）](http://sasapea.mydns.jp/2019/06/29/m5stickc-dp/) SASAPEA'S LAB
 - 2019.06.28 [M5StickCで赤外線リモコンデータを送受信してみた。](http://sasapea.mydns.jp/2019/06/28/m5stickc-ir/) SASAPEA'S LAB
@@ -32,6 +41,7 @@ M5StickC関係のブログ等の情報収集
 - 2019.06.23 [傾斜計 カルマン・フィルタ アルゴリズムの解きほぐし ー倒立振子への道 2ー](https://homemadegarbage.com/bala02) HomeMadeGarbage
 - 2019.06.21 [カルマン・フィルタで M5stickC 傾斜計 ー倒立振子への道 1ー](https://homemadegarbage.com/bala01) HomeMadeGarbage
 - 2019.06.21 [M5StickCの開発環境をVS Codeに移す方法](https://note.mu/onswar/n/n5f02ad80df31?magazine_key=me44c0fbe10e3) Onswar
+- 2019.06.19 [M5StickCで、いま敢えてポケベルを作る](https://qiita.com/ie4/items/053b5f3d4ca78af8a0d6) @ie4
 - 2019.06.18 [M5StickCというおもちゃ](https://note.mu/onswar/n/n9d7617464407) Onswar
 - 2019.06.18 [M5StickC でスマートな電池を作製 M5Stick-Cell](https://homemadegarbage.com/m5stickc01) HomeMadeGarbage
 - 2019.06.16 [M5StickC（その2）](http://nekomemo2.site/?eid=1770) ねこめも
@@ -54,6 +64,11 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.08.14 [M5StickCライブラリ0.1.0リリース](https://lang-ship.com/blog/?p=764)
+- 2019.08.01 [M5StickCのIMUがMPU6886になった！](https://lang-ship.com/blog/?p=755)
+- 2019.07.31 [M5StickCでSPI接続のSDを使う(3線)](https://lang-ship.com/blog/?p=745)
+- 2019.07.30 [M5StickC(ESP32)の赤外線(RMT)受信を調べた](https://lang-ship.com/blog/?p=732)
+- 2019.07.29 [M5StickC(ESP32)のCPU関連関数を調べた](https://lang-ship.com/blog/?p=730)
 - 2019.07.19 [M5StickCでSPI接続のSDカードを使う](https://lang-ship.com/blog/?p=721)
 - 2019.07.18 [M5StickCのQRCodeを調べてみた](https://lang-ship.com/blog/?p=717)
 - 2019.07.17 [M5StickCでGROVEのアナログ出力をBluetoothSerialで飛ばす](https://lang-ship.com/blog/?p=714)
