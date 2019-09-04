@@ -173,22 +173,25 @@ void loop() {
 ```
 #include <M5StickC.h>
 
+RTC_DateTypeDef DateStruct;
+RTC_TimeTypeDef TimeStruct;
+
 void setup() {
   M5.begin();
-  M5.Lcd.setRotation(3);
-
-  M5.Rtc.GetBm8563Time();
-  M5.Lcd.printf("%04d/%02d/%02d %02d:%02d:%02d",
-    M5.Rtc.Year,
-    M5.Rtc.Month,
-    M5.Rtc.Day,
-    M5.Rtc.Hour,
-    M5.Rtc.Minute,
-    M5.Rtc.Second
-  );  
 }
 
 void loop() {
+  M5.Rtc.GetData(&DateStruct);
+  M5.Rtc.GetTime(&TimeStruct);
+  Serial.printf("%04d/%02d/%02d %02d:%02d:%02d\n",
+                DateStruct.Year,
+                DateStruct.Month,
+                DateStruct.Date,
+                TimeStruct.Hours,
+                TimeStruct.Minutes,
+                TimeStruct.Seconds
+               );
+  delay(1000);
 }
 ```
 

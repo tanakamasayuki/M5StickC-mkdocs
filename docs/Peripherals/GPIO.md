@@ -6,12 +6,12 @@
 
 | PIN            | IO26 | IO36 | IO0 | IO32 | IO33 |
 |----------------|------|------|-----|------|------|
-| digitalRead()  | ○    | ○    | ○   | ○    | ○    |
-| analogRead()   | NG   | NG   | NG  | ○    | ○    |
+| digitalRead()  | ○   | ○   | ○  | ○   | ○   |
+| analogRead()   | ○   | ○   | NG  | ○   | ○   |
 | touchRead()    | NG   | NG   | NG  | 33   | 32   |
-| dacWrite()     | ○    | NG   | NG  | NG   | NG   |
-| digitalWrite() | ○    | NG   | ○   | ○    | ○    |
-| ledcWrite()    | ○    | NG   | ○   | ○    | ○    |
+| dacWrite()     | ○   | NG   | NG  | NG   | NG   |
+| digitalWrite() | ○   | NG   | ○  | ○   | ○   |
+| ledcWrite()    | ○   | NG   | ○  | ○   | ○   |
 
 
 ## 機能
@@ -25,7 +25,7 @@ int PIN = 32;
 void setup() {
   M5.begin();
  
-  pinMode( PIN, INPUT);
+  pinMode(PIN, INPUT);
 }
  
 void loop() {
@@ -35,6 +35,7 @@ void loop() {
 ```
 
 PINの入力がHIGHかLOWかを出力します。
+IO0はプルアップされているので、GNDに接続した時以外は4095になります。
 
 ### analogRead() アナログ入力 0(0V)-4095(3.3V)
 ```
@@ -45,7 +46,7 @@ int PIN = 32;
 void setup() {
   M5.begin();
  
-  pinMode( PIN, INPUT);
+  pinMode(PIN, ANALOG);
 }
  
 void loop() {
@@ -54,7 +55,8 @@ void loop() {
 }
 ```
 
-PINの電圧を取得することができます。
+PINの電圧を取得することができます。pinMode()はANALOGに設定する必要があります。
+GPIO0はプルアップされているので、GNDに接続した時以外は4095になります。
 
 ### digitalWrite() デジタル出力 LOW(0V) or HIGH(3.3V)
 ```

@@ -17,7 +17,13 @@ void pinMode(uint8_t pin, uint8_t mode)
 
 !!! summary "引数"
 	- uint8_t `pin` 指定するpin
-	- uint8_t `mode` 設定するモード(INPUT, OUTPUT, INPUT_PULLUP)
+	- uint8_t `mode` 設定するモード
+		- INPUT : デジタル入力
+		- INPUT_PULLUP : プルアップ入力
+		- INPUT_PULLDOWN : プルアップ入力
+		- OUTPUT : デジタル・アナログ出力
+		- OUTPUT_OPEN_DRAIN : オープンドレイン出力
+		- ANALOG : アナログ入力
 
 !!! Tip "利用例"
 	```c

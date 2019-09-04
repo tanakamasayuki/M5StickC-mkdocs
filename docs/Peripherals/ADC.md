@@ -2,11 +2,12 @@
 
 ## 概要
 
-M5StickCでADCに使えるのはIO32とIO33の2つのみです。
+M5StickCでADCに使えるのはIO0以外の4つです。
+IO0はプルアップされているので、GNDに接続した時以外は4095になります。
 
 | PIN            | IO26 | IO36 | IO0 | IO32 | IO33 |
 |----------------|------|------|-----|------|------|
-| analogRead()   | NG   | NG   | NG  | ○    | ○    |
+| analogRead()   | ○   | ○   | NG  | ○    | ○    |
 
 ## サンプルコード
 ```
@@ -17,7 +18,7 @@ int PIN = 32;
 void setup() {
   M5.begin();
  
-  pinMode( PIN, INPUT );
+  pinMode(PIN, ANALOG);
 }
  
 void loop() {

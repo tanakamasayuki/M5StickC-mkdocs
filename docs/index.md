@@ -8,6 +8,34 @@
 
 ![M5StickC](images/M5StickC.png)
 
+## 端子別備考
+
+### BAT端子
+内蔵バッテリーの出力端子で、 3Vから4V程度が常に出力されています。
+
+### 3V3
+3.3Vが出力される端子で、この端子のみ電源OFFだと出力されません。
+
+### 5V
+5Vが出力される端子で、常に出力されています。
+
+### GROVE 5V
+Grove端子側の5V端子で、常に出力されています。ただ、GPIO32とGPIO33の入力は3.3Vまでなので、接続する装置によってはこの電源の5Vの入力がそのまま入る可能性があります。とはいえ、実際のところ5Vの入力を入れても壊れることはないようですが、正式には5V入力を許容していませんので注意して利用してください。
+
+### GPIO0
+基本的に3.3Vでプルアップされている端子で、電源オフ時とLOWの出力時以外はHIGHになっています。ただLOWのときにもGNDレベルではなく150mV程度の電圧が出力されていました。
+
+また、この端子をLOWに落としている時は、起動に失敗しますので接続には注意してください。
+
+### GPIO26
+非常にシンプルな端子で、素直に動きます。また、M5StickCではDAC出力に唯一使える端子でもあります。
+
+### GPIO36
+入力専用端子で出力はできません。また、プルアップとプルダウンも利用できませんので注意しましょう。
+
+### GPIO32, 33
+Grove側の端子で、素直に動きます。Groveの電源が5Vですが、この端子の入力は3.3Vまでなので注意しましょう。
+
 ## データシート
 - メインチップ [[ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)] [[ESP32 FAQ](https://www.espressif.com/sites/default/files/documentation/ESP32_FAQs__EN.pdf)]
 - メインボード [[ESP32-PICO-D4](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf)]
