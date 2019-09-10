@@ -12,6 +12,8 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
+- 2019.09.10 [M5StackとNeoPixelで作った光る帽子をM5StickCに移植した](http://ajimitei.blogspot.com/2019/09/m5stackneopixelm5stickc.html) ajimitei labo.
+- 2019.09.09 [M5StackとM5Stickの機種別GROVE端子情報まとめ](http://ajimitei.blogspot.com/2019/09/m5stackm5stickgrove.html) ajimitei labo.
 - 2019.08.14 [M5StickCで外気の温度をスマホで確認](https://higenonagaineko.hatenablog.com/entry/2019/08/14/090710) ひげの長いネコ
 - 2019.08.13 [音声による信号通信 Chirp －M5StickC編－](https://homemadegarbage.com/chirp01) HomeMadeGarbage
 - 2019.08.13 [TelloをM5StickCでコントロールするスケッチを作りました](https://qiita.com/Mitsu-Murakita/items/c078752a570bf1295782) @Mitsu-Murakita
@@ -64,6 +66,11 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.09.10 [M5StickCで赤外線リモコンを使う](https://lang-ship.com/blog/?p=886)
+- 2019.09.09 [M5StickCのAXP192で外部電源を使う](https://lang-ship.com/blog/?p=884)
+- 2019.09.05 [M5StickCのAXP192の電源周りを調べる](https://lang-ship.com/blog/?p=841)
+- 2019.09.02 [M5StickCの端子別動作確認](https://lang-ship.com/blog/?p=834)
+- 2019.08.30 [M5StickCの内蔵LEDを使う](https://lang-ship.com/blog/?p=817)
 - 2019.08.14 [M5StickCライブラリ0.1.0リリース](https://lang-ship.com/blog/?p=764)
 - 2019.08.01 [M5StickCのIMUがMPU6886になった！](https://lang-ship.com/blog/?p=755)
 - 2019.07.31 [M5StickCでSPI接続のSDを使う(3線)](https://lang-ship.com/blog/?p=745)

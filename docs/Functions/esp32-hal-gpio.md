@@ -10,6 +10,8 @@
 
 ### ピンモード設定 pinMode()
 指定したピンのモードを設定する。
+GPIO_NUM_34-39はINPUTかANALOGにのみ設定可能です。OUTPUTやINPUT_PULLUP、INPUT_PULLDOWNなどは利用できません。
+ANALOGは特定のPINでのみ設定可能です。無線を利用するとADC2に接続したPINは利用できなくなるので、ADC1に接続したPINを利用してください。
 
 ```c
 void pinMode(uint8_t pin, uint8_t mode)
