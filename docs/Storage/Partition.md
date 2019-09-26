@@ -25,8 +25,7 @@ First-stage bootloaderが最初に起動して、Second-stage bootloaderをメ�
 | otadata |     8,192 |     8,192 |          8,192 |
 | app0    | 1,310,720 | 2,097,152 |      1,966,080 |
 | app1    | 1,310,720 |         0 |      1,966,080 |
-| eeprom  |     4,096 |     4,096 |          4,096 |
-| spiffs  | 1,503,232 | 2,027,520 |        192,512 |
+| spiffs  | 1,507,328 | 2,031,616 |        196,608 |
 
 上記が標準で入っている設定値です。
 
@@ -60,6 +59,8 @@ OTAを利用する場合には、app0とapp1の交互にプログラムを書き
 
 ### eeprom(Electrically Erasable Programmable Read-Only Memory)
 
+**※ ESP 1.0.3にて廃止されましたので、NVSを利用してください。**
+
 こちらもnvsと同じく不揮発性ストレージです。名前でアクセスする機能はなく、アドレス単位でのアクセスになります。構造体を使うことで簡単に複数の設定を保存したり、取得したいすることができます。
 
 こちらも、通常は暗号化されていないのと、中身を取り出すことができるので、パスワードなどを保存して置くと、抜き出される可能性があります。
@@ -80,7 +81,7 @@ spiffsの利点として、一度転送すれば上書きされることがな�
 
 あまり自分でPartitionを編集する必要はないのですが、標準で用意されているプログラム容量は2Mまでなので、もっと大きなプログラムを転送したい場合には、自分で設定する必要があります。
 
-C:\Users\%username%\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\tools\partitions
+C:\Users\%username%\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.3\tools\partitions
 
 Windowsの場合には、上記にPartition Tablesが保存されています。ベースになるものをコピーして、名前を変更してから書き換えます。
 
@@ -89,8 +90,7 @@ Windowsの場合には、上記にPartition Tablesが保存されています。
 nvs,      data, nvs,     0x9000,  0x5000,
 otadata,  data, ota,     0xe000,  0x2000,
 app0,     app,  ota_0,   0x10000, 0x300000,
-eeprom,   data, 0x99,    0x310000,0x1000,
-spiffs,   data, spiffs,  0x311000,0xEF000,
+spiffs,   data, spiffs,  0x310000,0xF0000,
 ```
 
 上記がOTAを使わなくして、最大限app0のサイズを大きくしたものです。ただし各Partition最大が3Mまでの様で、3M以上を指定しても3Mとして動いています。
@@ -101,7 +101,7 @@ ESP32はフラッシュが4Mですので、最後のOffsetとSizeを足した結
 
 ## Arduino IDEに登録する
 
-C:\Users\%username%\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\boards.txt
+C:\Users\%username%\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.3\boards.txt
 
 Windowsの場合には、上記に各ボードの設定ファイルがあるので、これを書き換えます。これはESP32のライブラリが更新されると上書きされるので、更新された場合には再度編集する必要があります。
 

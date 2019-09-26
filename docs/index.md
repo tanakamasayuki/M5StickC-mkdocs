@@ -20,7 +20,9 @@
 5Vが出力される端子で、常に出力されています。
 
 ### GROVE 5V
-Grove端子側の5V端子で、常に出力されています。ただ、GPIO32とGPIO33の入力は3.3Vまでなので、接続する装置によってはこの電源の5Vの入力がそのまま入る可能性があります。とはいえ、実際のところ5Vの入力を入れても壊れることはないようですが、正式には5V入力を許容していませんので注意して利用してください。
+Grove端子側の5V端子で、常に出力されています。ただ、GPIO32とGPIO33の入力は3.3Vまでなので、接続する装置によってはこの電源の5Vの入力がそのまま入る可能性があります。
+
+とはいえ、実際のところ5Vの入力を入れても、すぐに壊れることはないようですが、正式には5V入力を許容していませんので注意して利用してください。
 
 ### GPIO0
 基本的に3.3Vでプルアップされている端子で、電源オフ時とLOWの出力時以外はHIGHになっています。ただLOWのときにもGNDレベルではなく150mV程度の電圧が出力されていました。
@@ -48,8 +50,8 @@ Grove側の端子で、素直に動きます。Groveの電源が5Vですが、�
 
 
 ## APIリファレンス
-- [M5StickC 0.0.5](https://lang-ship.com/reference/M5StickC/0.0.7/)
-- [ESP32 1.0.2](https://lang-ship.com/reference/ESP32/1.0.2/)
+- [M5StickC](https://lang-ship.com/reference/M5StickC/latest/)
+- [ESP32](https://lang-ship.com/reference/ESP32/latest/)
 - [Arduino日本語](https://www.arduino.cc/reference/jp/) ※不完全
 - [Arduino英語](https://www.arduino.cc/reference/en/)
 

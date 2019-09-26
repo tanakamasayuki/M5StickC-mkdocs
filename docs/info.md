@@ -12,8 +12,11 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
+- 2019.09.25 [M5StickCでI2C機器を使ってみる](https://qiita.com/t_kumazawa/items/2107e3363cab370be744) @t_kumazawa
+- 2019.09.23 [M5StackとM5StickC間のarduino BLE通信](https://qiita.com/mirawerra/items/d3d514cbdb3c2f4c20fb) @mirawerra
 - 2019.09.10 [M5StackとNeoPixelで作った光る帽子をM5StickCに移植した](http://ajimitei.blogspot.com/2019/09/m5stackneopixelm5stickc.html) ajimitei labo.
 - 2019.09.09 [M5StackとM5Stickの機種別GROVE端子情報まとめ](http://ajimitei.blogspot.com/2019/09/m5stackm5stickgrove.html) ajimitei labo.
+- 2019.09.06 [M5StickCで歩数計を作る](https://qiita.com/ufoo68/items/d0d12c666a19405c5625) @ufoo68
 - 2019.08.14 [M5StickCで外気の温度をスマホで確認](https://higenonagaineko.hatenablog.com/entry/2019/08/14/090710) ひげの長いネコ
 - 2019.08.13 [音声による信号通信 Chirp －M5StickC編－](https://homemadegarbage.com/chirp01) HomeMadeGarbage
 - 2019.08.13 [TelloをM5StickCでコントロールするスケッチを作りました](https://qiita.com/Mitsu-Murakita/items/c078752a570bf1295782) @Mitsu-Murakita
@@ -66,6 +69,10 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.09.25 [M5StickCのFritzingパーツ作成](https://lang-ship.com/blog/?p=923)
+- 2019.09.19 [M5StickCの消費電源 その2](https://lang-ship.com/blog/?p=921)
+- 2019.09.18 [M5StickCの消費電源 その1](https://lang-ship.com/blog/?p=914)
+- 2019.09.12 [M5StickCのマイクを使ってみる その1](https://lang-ship.com/blog/?p=907)
 - 2019.09.10 [M5StickCで赤外線リモコンを使う](https://lang-ship.com/blog/?p=886)
 - 2019.09.09 [M5StickCのAXP192で外部電源を使う](https://lang-ship.com/blog/?p=884)
 - 2019.09.05 [M5StickCのAXP192の電源周りを調べる](https://lang-ship.com/blog/?p=841)
