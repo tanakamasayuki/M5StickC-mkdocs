@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_bluefruit_l_e___s_p_i___stream.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_bluefruit_l_e___s_p_i___stream.html)
 
 ## メンバー
 

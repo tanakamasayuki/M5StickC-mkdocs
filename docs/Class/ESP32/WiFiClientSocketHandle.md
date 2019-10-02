@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_wi_fi_client_socket_handle.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_wi_fi_client_socket_handle.html)
 
 ## メンバー
 

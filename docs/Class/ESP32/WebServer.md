@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_web_server.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_web_server.html)
 
 ## メンバー
 
@@ -554,6 +554,32 @@ void WebServer::send_P(int code, PGM_P content_type, PGM_P content, size_t conte
 	- PGM_P `content_type` 
 	- PGM_P `content` 
 	- size_t `contentLength` 
+
+
+
+### enableCORS()
+
+
+
+```c
+void WebServer::enableCORS(boolean value=true)
+```
+
+!!! summary "引数"
+	- boolean `value` 
+
+
+
+### enableCrossOrigin()
+
+
+
+```c
+void WebServer::enableCrossOrigin(boolean value=true)
+```
+
+!!! summary "引数"
+	- boolean `value` 
 
 
 

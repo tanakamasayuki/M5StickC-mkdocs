@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_s_p_i_settings.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_s_p_i_settings.html)
 
 ## メンバー
 

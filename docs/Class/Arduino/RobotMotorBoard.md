@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_robot_motor_board.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_robot_motor_board.html)
 
 ## メンバー
 

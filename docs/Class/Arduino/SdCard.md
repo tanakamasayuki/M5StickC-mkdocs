@@ -4,7 +4,7 @@ Hardware access class for SD flash cards
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_sd_card.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_sd_card.html)
 
 ## メンバー
 

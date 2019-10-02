@@ -4,7 +4,7 @@ Raw access to SD and SDHC flash memory cards.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_sd2_card.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_sd2_card.html)
 
 ## メンバー
 

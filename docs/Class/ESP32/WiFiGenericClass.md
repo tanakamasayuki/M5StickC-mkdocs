@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_wi_fi_generic_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_wi_fi_generic_class.html)
 
 ## メンバー
 
@@ -319,6 +319,56 @@ int WiFiGenericClass::hostByName(const char *aHostname, IPAddress &aResult)
 
 !!! note "戻り値"
 	int 1 if aIPAddrString was successfully converted to an IP address, else error code 
+
+
+
+### calculateNetworkID()
+
+
+
+```c
+IPAddress WiFiGenericClass::calculateNetworkID(IPAddress ip, IPAddress subnet)
+```
+
+!!! summary "引数"
+	- IPAddress `ip` 
+	- IPAddress `subnet` 
+
+!!! note "戻り値"
+	IPAddress
+
+
+
+### calculateBroadcast()
+
+
+
+```c
+IPAddress WiFiGenericClass::calculateBroadcast(IPAddress ip, IPAddress subnet)
+```
+
+!!! summary "引数"
+	- IPAddress `ip` 
+	- IPAddress `subnet` 
+
+!!! note "戻り値"
+	IPAddress
+
+
+
+### calculateSubnetCIDR()
+
+
+
+```c
+uint8_t WiFiGenericClass::calculateSubnetCIDR(IPAddress subnetMask)
+```
+
+!!! summary "引数"
+	- IPAddress `subnetMask` 
+
+!!! note "戻り値"
+	uint8_t
 
 
 

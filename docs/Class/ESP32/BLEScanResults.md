@@ -4,7 +4,7 @@ The result of having performed a scan. When a scan completes, we have a set of f
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_b_l_e_scan_results.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_b_l_e_scan_results.html)
 
 ## メンバー
 

@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_b_l_e_stream.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_b_l_e_stream.html)
 
 ## メンバー
 

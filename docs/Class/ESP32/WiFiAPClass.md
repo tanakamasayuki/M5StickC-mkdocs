@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_wi_fi_a_p_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_wi_fi_a_p_class.html)
 
 ## メンバー
 
@@ -87,6 +87,48 @@ IPAddress WiFiAPClass::softAPIP()
 
 !!! note "戻り値"
 	IPAddress  softAP IP 
+
+
+
+### softAPBroadcastIP()
+
+
+Get the softAP broadcast IP address. 
+
+```c
+IPAddress WiFiAPClass::softAPBroadcastIP()
+```
+
+!!! note "戻り値"
+	IPAddress  softAP broadcastIP 
+
+
+
+### softAPNetworkID()
+
+
+Get the softAP network ID. 
+
+```c
+IPAddress WiFiAPClass::softAPNetworkID()
+```
+
+!!! note "戻り値"
+	IPAddress  softAP networkID 
+
+
+
+### softAPSubnetCIDR()
+
+
+Get the softAP subnet CIDR. 
+
+```c
+uint8_t WiFiAPClass::softAPSubnetCIDR()
+```
+
+!!! note "戻り値"
+	uint8_t uint8_t softAP subnetCIDR 
 
 
 

@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_d_n_s_server.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_d_n_s_server.html)
 
 ## メンバー
 

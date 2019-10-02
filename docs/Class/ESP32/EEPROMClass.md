@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_e_e_p_r_o_m_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_e_e_p_r_o_m_class.html)
 
 ## メンバー
 
@@ -147,6 +147,24 @@ uint8_t * EEPROMClass::getDataPtr()
 
 !!! note "戻り値"
 	uint8_t*
+
+
+
+### convert()
+
+
+
+```c
+uint16_t EEPROMClass::convert(bool clear, const char *EEPROMname="eeprom", const char *nvsname="eeprom")
+```
+
+!!! summary "引数"
+	- bool `clear` 
+	- constchar * `EEPROMname` 
+	- constchar * `nvsname` 
+
+!!! note "戻り値"
+	uint16_t
 
 
 

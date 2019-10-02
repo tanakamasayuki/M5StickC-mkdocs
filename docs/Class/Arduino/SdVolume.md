@@ -4,7 +4,7 @@ Access FAT16 and FAT32 volumes on SD and SDHC cards.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_sd_volume.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_sd_volume.html)
 
 ## メンバー
 

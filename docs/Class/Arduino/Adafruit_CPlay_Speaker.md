@@ -4,7 +4,7 @@ Class that stores state and functions for the speaker on CircuitPlayground board
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_adafruit___c_play___speaker.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_adafruit___c_play___speaker.html)
 
 ## メンバー
 
@@ -56,14 +56,14 @@ Plays digitized 8-bit audio (optionally 10 bits on Express board) from a PROGMEM
 
 
 ```c
-void Adafruit_CPlay_Speaker::playSound(const uint8_t *data, uint32_t length, uint16_t sampleRate, boolean tenBit=false)
+void Adafruit_CPlay_Speaker::playSound(const uint8_t *data, uint32_t length, uint16_t sampleRate, bool tenBit=false)
 ```
 
 !!! summary "引数"
 	- constuint8_t * `data` pointer to the audio data to play 
 	- uint32_t `length` 
 	- uint16_t `sampleRate` the sample rate of the data in samples per second 
-	- boolean `tenBit` Optional flag if true 10-bit mode is enabled. AVR ONLY 
+	- bool `tenBit` Optional flag if true 10-bit mode is enabled. AVR ONLY 
 
 
 
@@ -85,11 +85,11 @@ enable or disable the speaker. This function only works on 'Express' boards.
 
 
 ```c
-void Adafruit_CPlay_Speaker::enable(boolean e)
+void Adafruit_CPlay_Speaker::enable(bool e)
 ```
 
 !!! summary "引数"
-	- boolean `e` pass true to enable, false to disable 
+	- bool `e` pass true to enable, false to disable 
 
 
 

@@ -4,7 +4,7 @@ Class that stores state and functions for interacting with CircuitPlayground har
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_adafruit___circuit_playground.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_adafruit___circuit_playground.html)
 
 ## メンバー
 
@@ -69,14 +69,14 @@ Set up the CircuitPlayground hardware
 
 
 ```c
-boolean Adafruit_CircuitPlayground::begin(uint8_t brightness=20)
+bool Adafruit_CircuitPlayground::begin(uint8_t brightness=20)
 ```
 
 !!! summary "引数"
 	- uint8_t `brightness` Optional brightness to set the neopixels to 
 
 !!! note "戻り値"
-	boolean True if device is set up, false on any failure 
+	bool True if device is set up, false on any failure 
 
 
 
@@ -86,11 +86,11 @@ read the slide switch
 
 
 ```c
-boolean Adafruit_CircuitPlayground::slideSwitch(void)
+bool Adafruit_CircuitPlayground::slideSwitch(void)
 ```
 
 !!! note "戻り値"
-	boolean true if slide switch in set, false if not 
+	bool true if slide switch in set, false if not 
 
 
 
@@ -99,11 +99,11 @@ turn on or off the red LED on pin #13
 
 
 ```c
-void Adafruit_CircuitPlayground::redLED(boolean v)
+void Adafruit_CircuitPlayground::redLED(bool v)
 ```
 
 !!! summary "引数"
-	- boolean `v` pass true to turn LED on, false to turn LED off 
+	- bool `v` pass true to turn LED on, false to turn LED off 
 
 
 
@@ -112,13 +112,13 @@ play a tone on the onboard buzzer
 
 
 ```c
-void Adafruit_CircuitPlayground::playTone(uint16_t freq, uint16_t time, boolean wait=true)
+void Adafruit_CircuitPlayground::playTone(uint16_t freq, uint16_t time, bool wait=true)
 ```
 
 !!! summary "引数"
 	- uint16_t `freq` the frequency to play 
 	- uint16_t `time` the duration of the tone in milliseconds 
-	- boolean `wait` Optional flag to wait for time milliseconds after playing the tone. Defaults to true. 
+	- bool `wait` Optional flag to wait for time milliseconds after playing the tone. Defaults to true. 
 
 
 
@@ -128,11 +128,11 @@ read the left button
 
 
 ```c
-boolean Adafruit_CircuitPlayground::leftButton(void)
+bool Adafruit_CircuitPlayground::leftButton(void)
 ```
 
 !!! note "戻り値"
-	boolean true if button is pressed, false if not 
+	bool true if button is pressed, false if not 
 
 
 
@@ -142,11 +142,11 @@ read the right button
 
 
 ```c
-boolean Adafruit_CircuitPlayground::rightButton(void)
+bool Adafruit_CircuitPlayground::rightButton(void)
 ```
 
 !!! note "戻り値"
-	boolean true if button is pressed, false if not 
+	bool true if button is pressed, false if not 
 
 
 
@@ -419,7 +419,7 @@ void Adafruit_CircuitPlayground::senseColor(uint8_t &red, uint8_t &green, uint8_
 !!! summary "引数"
 	- uint8_t & `red` the pointer to where the red component should be stored. 
 	- uint8_t & `green` the pointer to where the green component should be stored. 
-	- uint8_t & `blue` the pointer to where the blue component should be stored.
+	- uint8_t & `blue` the pointer to where the blue component should be stored. 
 
 
 
@@ -443,11 +443,11 @@ check whether or not this device is a CircuitPlayground Express.
 
 
 ```c
-boolean Adafruit_CircuitPlayground::isExpress(void)
+bool Adafruit_CircuitPlayground::isExpress(void)
 ```
 
 !!! note "戻り値"
-	boolean True if the device is a CircuitPlayground Express, false if it is a 'classic'. 
+	bool True if the device is a CircuitPlayground Express, false if it is a 'classic'. 
 
 
 

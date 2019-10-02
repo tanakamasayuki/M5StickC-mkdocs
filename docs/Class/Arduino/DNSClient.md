@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_d_n_s_client.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_d_n_s_client.html)
 
 ## メンバー
 

@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_e_t_h_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_e_t_h_class.html)
 
 ## メンバー
 
@@ -219,6 +219,45 @@ IPAddress ETHClass::dnsIP(uint8_t dns_no=0)
 
 !!! note "戻り値"
 	IPAddress
+
+
+
+### broadcastIP()
+
+
+
+```c
+IPAddress ETHClass::broadcastIP()
+```
+
+!!! note "戻り値"
+	IPAddress
+
+
+
+### networkID()
+
+
+
+```c
+IPAddress ETHClass::networkID()
+```
+
+!!! note "戻り値"
+	IPAddress
+
+
+
+### subnetCIDR()
+
+
+
+```c
+uint8_t ETHClass::subnetCIDR()
+```
+
+!!! note "戻り値"
+	uint8_t
 
 
 

@@ -4,7 +4,7 @@ Callbacks that can be associated with a BLE descriptors to inform of events.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_b_l_e_descriptor_callbacks.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_b_l_e_descriptor_callbacks.html)
 
 ## メンバー
 

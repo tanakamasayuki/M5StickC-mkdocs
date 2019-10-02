@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_esp_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_esp_class.html)
 
 ## メンバー
 
@@ -160,11 +160,11 @@ uint8_t EspClass::getChipRevision()
 
 
 ```c
-uint8_t EspClass::getCpuFreqMHz()
+uint32_t EspClass::getCpuFreqMHz()
 ```
 
 !!! note "戻り値"
-	uint8_t
+	uint32_t
 
 
 
@@ -173,7 +173,7 @@ uint8_t EspClass::getCpuFreqMHz()
 
 
 ```c
-uint32_t EspClass::getCycleCount()
+uint32_t IRAM_ATTR EspClass::getCycleCount() __attribute__((always_inline))
 ```
 
 !!! note "戻り値"

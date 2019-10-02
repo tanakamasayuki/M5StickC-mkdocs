@@ -4,7 +4,7 @@ Interface to FreeRTOS functions.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_free_r_t_o_s.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_free_r_t_o_s.html)
 
 ## メンバー
 

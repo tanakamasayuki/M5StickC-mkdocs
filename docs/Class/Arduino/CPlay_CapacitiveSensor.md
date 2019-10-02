@@ -4,7 +4,7 @@ Class that stores state and functions for the capacitive sensor on CircuitPlaygr
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_c_play___capacitive_sensor.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_c_play___capacitive_sensor.html)
 
 ## メンバー
 

@@ -4,7 +4,7 @@ Class that stores state and functions for neopixels on CircuitPlayground boards
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_adafruit___c_play___neo_pixel.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_adafruit___c_play___neo_pixel.html)
 
 ## メンバー
 

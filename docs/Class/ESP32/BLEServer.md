@@ -4,7 +4,7 @@ The model of a BLE server.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_b_l_e_server.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_b_l_e_server.html)
 
 ## メンバー
 
@@ -158,6 +158,19 @@ bool BLEServer::connect(BLEAddress address)
 
 !!! note "戻り値"
 	bool
+
+
+
+### disconnect()
+
+
+
+```c
+void BLEServer::disconnect(uint16_t connId)
+```
+
+!!! summary "引数"
+	- uint16_t `connId` 
 
 
 

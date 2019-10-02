@@ -4,7 +4,7 @@ Representation of a beacon. See:
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_b_l_e_eddystone_u_r_l.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_b_l_e_eddystone_u_r_l.html)
 
 ## メンバー
 

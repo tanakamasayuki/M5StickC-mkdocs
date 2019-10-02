@@ -4,7 +4,7 @@ Perform and manage BLE advertising.
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_b_l_e_advertising.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_b_l_e_advertising.html)
 
 ## メンバー
 
@@ -154,6 +154,20 @@ void BLEAdvertising::setPrivateAddress(esp_ble_addr_type_t type=BLE_ADDR_TYPE_RA
 ```
 
 !!! summary "引数"
+	- esp_ble_addr_type_t `type` 
+
+
+
+### setDeviceAddress()
+Set BLE address.
+
+
+```c
+void BLEAdvertising::setDeviceAddress(esp_bd_addr_t addr, esp_ble_addr_type_t type=BLE_ADDR_TYPE_RANDOM)
+```
+
+!!! summary "引数"
+	- esp_bd_addr_t `addr` 
 	- esp_ble_addr_type_t `type` 
 
 

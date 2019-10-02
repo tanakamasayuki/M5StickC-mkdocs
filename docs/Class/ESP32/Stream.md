@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_stream.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_stream.html)
 
 ## メンバー
 
@@ -305,7 +305,7 @@ size_t Stream::readBytes(char *buffer, size_t length)
 
 
 ```c
-size_t Stream::readBytes(uint8_t *buffer, size_t length)
+virtual size_t Stream::readBytes(uint8_t *buffer, size_t length)
 ```
 
 !!! summary "引数"

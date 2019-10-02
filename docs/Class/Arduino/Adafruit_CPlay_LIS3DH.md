@@ -4,7 +4,7 @@ Class that stores state and functions for LIS3DH accelerometer on the circuitPla
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_adafruit___c_play___l_i_s3_d_h.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_adafruit___c_play___l_i_s3_d_h.html)
 
 ## メンバー
 

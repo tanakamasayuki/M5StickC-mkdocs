@@ -4,7 +4,7 @@ API for managing Function Pointers
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/1.8.9/class_f_p.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/Arduino/latest/class_f_p.html)
 
 ## メンバー
 

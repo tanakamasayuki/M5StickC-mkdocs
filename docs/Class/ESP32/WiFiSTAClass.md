@@ -4,7 +4,7 @@
 
 ## 詳細情報
 
-- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/1.0.2/class_wi_fi_s_t_a_class.html)
+- [Doxygenクラスリファレンス](https://lang-ship.com/reference/ESP32/latest/class_wi_fi_s_t_a_class.html)
 
 ## メンバー
 
@@ -285,6 +285,48 @@ IPAddress WiFiSTAClass::dnsIP(uint8_t dns_no=0)
 
 !!! note "戻り値"
 	IPAddress  DNS  IP 
+
+
+
+### broadcastIP()
+
+
+Get the broadcast ip address. 
+
+```c
+IPAddress WiFiSTAClass::broadcastIP()
+```
+
+!!! note "戻り値"
+	IPAddress  broadcastIP 
+
+
+
+### networkID()
+
+
+Get the network id. 
+
+```c
+IPAddress WiFiSTAClass::networkID()
+```
+
+!!! note "戻り値"
+	IPAddress  networkID 
+
+
+
+### subnetCIDR()
+
+
+Get the subnet CIDR. 
+
+```c
+uint8_t WiFiSTAClass::subnetCIDR()
+```
+
+!!! note "戻り値"
+	uint8_t uint8_t subnetCIDR 
 
 
 
