@@ -127,6 +127,19 @@ void UpdateClass::printError(Stream &out)
 
 
 
+### errorString()
+
+
+
+```c
+const char * UpdateClass::errorString()
+```
+
+!!! note "戻り値"
+	constchar *
+
+
+
 ### setMD5()
 
 

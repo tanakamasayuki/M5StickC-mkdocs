@@ -168,6 +168,22 @@ int32_t WiFiScanClass::channel(uint8_t networkItem)
 
 
 
+### getScanInfoByIndex()
+
+
+
+```c
+static void* WiFiScanClass::getScanInfoByIndex(int i)
+```
+
+!!! summary "引数"
+	- int `i` 
+
+!!! note "戻り値"
+	void *
+
+
+
 ### _scanDone()
 
 

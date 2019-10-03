@@ -169,6 +169,13 @@ int esptool.ESPLoader::ESP_RUN_USER_CODE
 ```
 
 
+###  ESP_FLASH_ENCRYPT_DATA
+
+```c
+int esptool.ESPLoader::ESP_FLASH_ENCRYPT_DATA
+```
+
+
 ###  ESP_RAM_BLOCK
 
 ```c
@@ -215,6 +222,13 @@ int esptool.ESPLoader::FLASH_SECTOR_SIZE
 
 ```c
 int esptool.ESPLoader::UART_DATA_REG_ADDR
+```
+
+
+###  UART_CLKDIV_MASK
+
+```c
+int esptool.ESPLoader::UART_CLKDIV_MASK
 ```
 
 
@@ -394,7 +408,7 @@ def esptool.ESPLoader.connect(self, mode='default_reset')
 ### read_reg()
 
 
-
+ 
 ```c
 def esptool.ESPLoader.read_reg(self, addr)
 ```
@@ -410,13 +424,29 @@ def esptool.ESPLoader.read_reg(self, addr)
 ### write_reg()
 
 
-
+ 
 ```c
 def esptool.ESPLoader.write_reg(self, addr, value, mask=0xFFFFFFFF, delay_us=0)
 ```
 
 !!! summary "引数"
 	- delay_us `` 
+
+!!! note "戻り値"
+	def
+
+
+
+### update_reg()
+
+
+ 
+```c
+def esptool.ESPLoader.update_reg(self, addr, mask, new_val)
+```
+
+!!! summary "引数"
+	- new_val `` 
 
 !!! note "戻り値"
 	def
@@ -493,6 +523,22 @@ def esptool.ESPLoader.flash_begin(self, size, offset)
 
 ```c
 def esptool.ESPLoader.flash_block(self, data, seq, timeout=DEFAULT_TIMEOUT)
+```
+
+!!! summary "引数"
+	- timeout `` 
+
+!!! note "戻り値"
+	def
+
+
+
+### flash_encrypt_block()
+
+
+
+```c
+def esptool.ESPLoader.flash_encrypt_block(self, data, seq, timeout=DEFAULT_TIMEOUT)
 ```
 
 !!! summary "引数"
@@ -785,6 +831,22 @@ def esptool.ESPLoader.write_status(self, new_status, num_bytes=2, set_non_volati
 
 !!! summary "引数"
 	- set_non_volatile `` 
+
+!!! note "戻り値"
+	def
+
+
+
+### get_crystal_freq()
+
+
+
+```c
+def esptool.ESPLoader.get_crystal_freq(self)
+```
+
+!!! summary "引数"
+	- self `` 
 
 !!! note "戻り値"
 	def

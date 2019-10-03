@@ -284,11 +284,11 @@ void SPIClass::write32(uint32_t data)
 
 
 ```c
-void SPIClass::writeBytes(uint8_t *data, uint32_t size)
+void SPIClass::writeBytes(const uint8_t *data, uint32_t size)
 ```
 
 !!! summary "引数"
-	- uint8_t* `data` uint8_t * 
+	- const* `data` uint8_t * 
 	- uint32_t `size` uint32_t 
 
 

@@ -113,6 +113,13 @@ esptool.ESP32FirmwareImage::wp_drv
 ```
 
 
+###  min_rev
+
+```c
+esptool.ESP32FirmwareImage::min_rev
+```
+
+
 ###  append_digest
 
 ```c

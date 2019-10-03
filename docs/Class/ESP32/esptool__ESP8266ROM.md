@@ -71,6 +71,20 @@ bool esptool.ESP8266ROM::SPI_HAS_MOSI_DLEN_REG
 ```
 
 
+###  UART_CLKDIV_REG
+
+```c
+int esptool.ESP8266ROM::UART_CLKDIV_REG
+```
+
+
+###  XTAL_CLK_DIVIDER
+
+```c
+int esptool.ESP8266ROM::XTAL_CLK_DIVIDER
+```
+
+
 ###  FLASH_SIZES
 
 ```c
@@ -82,6 +96,13 @@ dictionary esptool.ESP8266ROM::FLASH_SIZES
 
 ```c
 int esptool.ESP8266ROM::BOOTLOADER_FLASH_OFFSET
+```
+
+
+###  MEMORY_MAP
+
+```c
+list esptool.ESP8266ROM::MEMORY_MAP
 ```
 
 

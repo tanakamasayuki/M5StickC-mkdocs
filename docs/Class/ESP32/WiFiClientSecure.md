@@ -469,6 +469,22 @@ void WiFiClientSecure::setHandshakeTimeout(unsigned long handshake_timeout)
 
 
 
+### setTimeout()
+
+
+
+```c
+int WiFiClientSecure::setTimeout(uint32_t seconds)
+```
+
+!!! summary "引数"
+	- uint32_t `seconds` 
+
+!!! note "戻り値"
+	int
+
+
+
 ### operator bool()
 
 

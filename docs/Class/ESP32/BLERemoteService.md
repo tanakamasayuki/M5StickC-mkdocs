@@ -81,15 +81,16 @@ std::map< std::string, BLERemoteCharacteristic * > * BLERemoteService::getCharac
 
 
 ### getCharacteristicsByHandle()
+Retrieve a map of all the characteristics of this service.
 
 
 
 ```c
-std::map<uint16_t, BLERemoteCharacteristic*>* BLERemoteService::getCharacteristicsByHandle()
+std::map< uint16_t, BLERemoteCharacteristic * > * BLERemoteService::getCharacteristicsByHandle()
 ```
 
 !!! note "戻り値"
-	std::map< ,  * > *
+	std::map< ,  * > * A map of all the characteristics of this service. 
 
 
 

@@ -15,6 +15,13 @@ string esptool.ESP32ROM::CHIP_NAME
 ```
 
 
+###  IMAGE_CHIP_ID
+
+```c
+int esptool.ESP32ROM::IMAGE_CHIP_ID
+```
+
+
 ###  IS_STUB
 
 ```c
@@ -78,6 +85,13 @@ int esptool.ESP32ROM::EFUSE_REG_BASE
 ```
 
 
+###  DR_REG_SYSCON_BASE
+
+```c
+int esptool.ESP32ROM::DR_REG_SYSCON_BASE
+```
+
+
 ###  SPI_W0_OFFS
 
 ```c
@@ -89,6 +103,20 @@ int esptool.ESP32ROM::SPI_W0_OFFS
 
 ```c
 bool esptool.ESP32ROM::SPI_HAS_MOSI_DLEN_REG
+```
+
+
+###  UART_CLKDIV_REG
+
+```c
+int esptool.ESP32ROM::UART_CLKDIV_REG
+```
+
+
+###  XTAL_CLK_DIVIDER
+
+```c
+int esptool.ESP32ROM::XTAL_CLK_DIVIDER
 ```
 
 
@@ -111,6 +139,45 @@ int esptool.ESP32ROM::BOOTLOADER_FLASH_OFFSET
 ```c
 list esptool.ESP32ROM::OVERRIDE_VDDSDIO_CHOICES
 ```
+
+
+###  MEMORY_MAP
+
+```c
+list esptool.ESP32ROM::MEMORY_MAP
+```
+
+
+### is_flash_encryption_key_valid()
+
+
+ 
+```c
+def esptool.ESP32ROM.is_flash_encryption_key_valid(self)
+```
+
+!!! summary "引数"
+	- self `` 
+
+!!! note "戻り値"
+	def
+
+
+
+### get_flash_crypt_config()
+
+
+ 
+```c
+def esptool.ESP32ROM.get_flash_crypt_config(self)
+```
+
+!!! summary "引数"
+	- self `` 
+
+!!! note "戻り値"
+	def
+
 
 
 ### get_chip_description()
