@@ -7,12 +7,13 @@
 | PIN            | IO26 | IO36 | IO0 | IO32 | IO33 |
 |----------------|------|------|-----|------|------|
 | digitalRead()  | ○   | ○   | ○  | ○   | ○   |
-| analogRead()   | ○   | ○   | NG  | ○   | ○   |
+| analogRead()   | ○※ | ○   | NG  | ○   | ○   |
 | touchRead()    | NG   | NG   | NG  | 33   | 32   |
 | dacWrite()     | ○   | NG   | NG  | NG   | NG   |
 | digitalWrite() | ○   | NG   | ○  | ○   | ○   |
 | ledcWrite()    | ○   | NG   | ○  | ○   | ○   |
 
+※IO0はプルアップされているので、GNDに接続した時以外は4095になります。
 ※IO26はADC2_CH9に接続されているため、無線利用時にアナログ入力に利用することができませんので注意しましょう。
 
 ## 機能

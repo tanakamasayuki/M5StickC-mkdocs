@@ -12,9 +12,14 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
+- 2019.10.10 [「M5StickC」と無料ネットサービス「Ambient」で令和最強台風を記録する！！](https://kitto-yakudatsu.com/archives/7143) きっと何かに役立つでしょ！？ 
+- 2019.10.09 [M5Stackにミニサーマルカメラユニット(MLX90640)をつないでみる（1)](https://edycube.blog.fc2.com/blog-entry-1107.html) 迷走の果て・Tiny Objects
+- 2019.10.06 [M5StickCにNCIR(MLX90614)をつなぐ(2)](https://edycube.blog.fc2.com/blog-entry-1106.html) 迷走の果て・Tiny Objects
+- 2019.10.05 [M5StickC NCIR(MLX90614)](https://edycube.blog.fc2.com/blog-entry-1105.html) 迷走の果て・Tiny Objects
 - 2019.10.02 [M5StickCをAlexa連携デバイス化する](https://qiita.com/norippy_i/items/d8456e3c84432e279754) @norippy_i
 - 2019.09.29 [M5StickCでBLE MIDIコントローラーを作ってみよう(1)](https://qiita.com/wdice02136/items/2de784ccf752d12923de) @wdice02136
 - 2019.09.29 [M5StickCがmacのシリアルポートに認識されない](https://qiita.com/sitopp/items/645ff359cf51327e70f7) @sitopp
+- 2019.09.28 [M5StickCと ENV hat](https://edycube.blog.fc2.com/blog-entry-1104.html) 迷走の果て・Tiny Objects
 - 2019.09.28 [M5Stack BeetleC Robotic Car](https://qiita.com/mirawerra/items/c08359dc3e0a74ecc42e) @mirawerra
 - 2019.09.23 [M5StackとM5StickC間のarduino BLE通信](https://qiita.com/mirawerra/items/d3d514cbdb3c2f4c20fb) @mirawerra
 - 2019.09.21 [M5StickCでI2C機器を使ってみる](https://qiita.com/t_kumazawa/items/2107e3363cab370be744) @t_kumazawa
@@ -73,12 +78,23 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.10.11 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その6(Beebotte+REST編)](https://lang-ship.com/blog/?p=1000)
+- 2019.10.10 [M5StickCのAXP192で外部電源を使う その2](https://lang-ship.com/blog/?p=994)
+- 2019.10.09 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その5(Beebotte+MQTT編)](https://lang-ship.com/blog/?p=987)
+- 2019.10.08 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その4(IIJ Machinist編)](https://lang-ship.com/blog/?p=977)
+- 2019.10.08 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その3(ThingSpeak編)](https://lang-ship.com/blog/?p=975)
+- 2019.10.08 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その2(Ambient編)](https://lang-ship.com/blog/?p=973)
+- 2019.10.08 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その1(基礎編)](https://lang-ship.com/blog/?p=969)
+- 2019.10.07 [M5StickCの消費電流 その3](https://lang-ship.com/blog/?p=962)
+- 2019.10.03 [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作(1.0.4対応版)](https://lang-ship.com/blog/?p=960)
+- 2019.10.03 [ESP32 1.0.4リリース](https://lang-ship.com/blog/?p=958)
+- 2019.10.02 [AquesTalk ESP32をかんたんに使う](https://lang-ship.com/blog/?p=956)
 - 2019.10.02 [M5StickCのマイクを使ってみる その3 録音再生](https://lang-ship.com/blog/?p=946)
 - 2019.09.30 [M5StickCのマイクを使ってみる その2 録音してみた](https://lang-ship.com/blog/?p=942)
 - 2019.09.26 [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作(1.0.3対応版)](https://lang-ship.com/blog/?p=929)
 - 2019.09.25 [M5StickCのFritzingパーツ作成](https://lang-ship.com/blog/?p=923)
-- 2019.09.19 [M5StickCの消費電源 その2](https://lang-ship.com/blog/?p=921)
-- 2019.09.18 [M5StickCの消費電源 その1](https://lang-ship.com/blog/?p=914)
+- 2019.09.19 [M5StickCの消費電力 その2](https://lang-ship.com/blog/?p=921)
+- 2019.09.18 [M5StickCの消費電力 その1](https://lang-ship.com/blog/?p=914)
 - 2019.09.12 [M5StickCのマイクを使ってみる その1](https://lang-ship.com/blog/?p=907)
 - 2019.09.10 [M5StickCで赤外線リモコンを使う](https://lang-ship.com/blog/?p=886)
 - 2019.09.09 [M5StickCのAXP192で外部電源を使う](https://lang-ship.com/blog/?p=884)
