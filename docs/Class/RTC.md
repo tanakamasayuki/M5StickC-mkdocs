@@ -9,6 +9,10 @@
 ## データシート
 - RTC [BM8563](http://www.belling.com.cn/media/file_object/bel_product/BM8563/datasheet/BM8563_V1.1_cn.pdf)
 
+## Doxygenドキュメント
+
+- [RTC クラス](https://lang-ship.com/reference/M5StickC/latest/class_r_t_c.html)
+
 ## メンバー
 
 ### 秒 Second

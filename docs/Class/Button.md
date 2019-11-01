@@ -6,6 +6,9 @@
 
 ![概要図](images/button.png)
 
+## Doxygenドキュメント
+
+- [Button クラス](https://lang-ship.com/reference/M5StickC/latest/class_button.html)
 
 ## メンバー
 

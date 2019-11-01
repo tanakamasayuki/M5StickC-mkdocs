@@ -2,7 +2,11 @@
 
 ## 概要
 
-スプライト表示ライブラリ。標準で入っているクラスですが、利用例が少ないのであまり利用しないほうが無難です。
+スプライト表示ライブラリ。標準で入っているクラスですが、利用例が少ないです。
+
+## Doxygenドキュメント
+
+- [TFT_eSprite クラス](https://lang-ship.com/reference/M5StickC/latest/class_t_f_t__e_sprite.html)
 
 ## メンバー
 

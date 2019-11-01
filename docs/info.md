@@ -12,10 +12,20 @@ M5StickC関係のブログ等の情報収集
 
 ## 外部サイト
 
+- 2019.10.30 [M5StickCで家庭用スマートメーターをハックする！](https://kitto-yakudatsu.com/archives/7206) きっと何かに役立つでしょ！？ 
+- 2019.10.21 [M5StickC　バッテリーの電圧、放電電流、充電電圧を測ってみる](https://edycube.blog.fc2.com/blog-entry-1111.html) 迷走の果て・Tiny Objects
+- 2019.10.21 [BeetleC(M5StickC)をゲームパッドで簡単に？操作する](https://qiita.com/yi_2018/items/822811c0ba29725354ee) @yi_2018
+- 2019.10.20 [obnizOS搭載のM5StickCのBeetleCをスマホ画面から操縦](https://qiita.com/Google_Homer/items/36404eb0d55904ff8ea6) @Google_Homer
+- 2019.10.17 [M5Stick-C + ENV HATで取得した情報をCayenneで視覚化する](https://qiita.com/kazuhidet/items/ee991b094761353ed1a5) @kazuhidet
+- 2019.10.15 [M5StickC を TOTO ウォッシュレットのリモコンにする](https://qiita.com/inasawa/items/b57e230b3c3f6a2033de) @inasawa
+- 2019.10.10 [M5StickCの加速度センサとジャイロセンサの値の変化をAWS IoTを経由して、ElasticSearchとKibanaでリアルタイムにグラフ表示してみる。](https://qiita.com/MypaceEngine/items/67e75e26051306dbee48) @MypaceEngine
+- 2019.10.10 [M5Stick-Cで赤外線リモコンを作る](https://qiita.com/poruruba/items/34220a4dd6aaf48392aa) @poruruba
 - 2019.10.10 [「M5StickC」と無料ネットサービス「Ambient」で令和最強台風を記録する！！](https://kitto-yakudatsu.com/archives/7143) きっと何かに役立つでしょ！？ 
-- 2019.10.09 [M5Stackにミニサーマルカメラユニット(MLX90640)をつないでみる（1)](https://edycube.blog.fc2.com/blog-entry-1107.html) 迷走の果て・Tiny Objects
+- 2019.10.08 [macOS Catalina で M5StickCに書き込みできない](https://qiita.com/SamAkada/items/fa32d6072a832a10cd84) @SamAkada
+- 2019.10.06 [M5StickC をドアセンサー(&開閉通知)にする](https://qiita.com/uniqode/items/1a4fff1e06c8d9958ef2) @uniqode
 - 2019.10.06 [M5StickCにNCIR(MLX90614)をつなぐ(2)](https://edycube.blog.fc2.com/blog-entry-1106.html) 迷走の果て・Tiny Objects
 - 2019.10.05 [M5StickC NCIR(MLX90614)](https://edycube.blog.fc2.com/blog-entry-1105.html) 迷走の果て・Tiny Objects
+- 2019.10.04 [iPhoneからBLEのCurrent Time Serviceで現在時刻を取得する（M5StickC編）](https://qiita.com/inasawa/items/677addc9d966b01e71c2) @inasawa
 - 2019.10.02 [M5StickCをAlexa連携デバイス化する](https://qiita.com/norippy_i/items/d8456e3c84432e279754) @norippy_i
 - 2019.09.29 [M5StickCでBLE MIDIコントローラーを作ってみよう(1)](https://qiita.com/wdice02136/items/2de784ccf752d12923de) @wdice02136
 - 2019.09.29 [M5StickCがmacのシリアルポートに認識されない](https://qiita.com/sitopp/items/645ff359cf51327e70f7) @sitopp
@@ -78,6 +88,12 @@ M5StickC関係のブログ等の情報収集
 
 ## Lang-shipブログ
 
+- 2019.10.31 [M5StickC SDK 0.1.1 AXP192クラス変更点解析](https://lang-ship.com/blog/?p=1097)
+- 2019.10.30 [M5StickC SDK 0.1.1リリース](https://lang-ship.com/blog/?p=1094)
+- 2019.10.24 [M5StickC(ESP32)のOTAでのプログラム更新](https://lang-ship.com/blog/?p=1079)
+- 2019.10.23 [M5StickC [ obnizOS + HobbyLite ]レビュー](https://lang-ship.com/blog/?p=1068)
+- 2019.10.16 [M5StickC with obnizOS(Hobbyライセンス)](https://lang-ship.com/blog/?p=1024)
+- 2019.10.11 [M5StickC(ESP32)の開発言語](https://lang-ship.com/blog/?p=1016)
 - 2019.10.11 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その6(Beebotte+REST編)](https://lang-ship.com/blog/?p=1000)
 - 2019.10.10 [M5StickCのAXP192で外部電源を使う その2](https://lang-ship.com/blog/?p=994)
 - 2019.10.09 [M5StickCにENV HAT(気温、湿度、気圧)をサーバーにアップする その5(Beebotte+MQTT編)](https://lang-ship.com/blog/?p=987)

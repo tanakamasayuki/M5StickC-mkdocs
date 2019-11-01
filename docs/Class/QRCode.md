@@ -10,6 +10,10 @@ QRコードを表示する機能ですが、構造体と実関数だけあって
 
 ![QRコードバージョン15](images/QRCode15.jpg)
 
+## Doxygenドキュメント
+
+- [QRCode 構造体](https://lang-ship.com/reference/M5StickC/latest/struct_q_r_code.html)
+
 ## 関数リファレンス
 
 ### QRコード表示 qrcode()

@@ -10,6 +10,9 @@
 
 - TFTスクリーン [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
 
+## Doxygenドキュメント
+
+- [M5Display クラス](https://lang-ship.com/reference/M5StickC/latest/class_m5_display.html)
 
 ## メンバー
 
