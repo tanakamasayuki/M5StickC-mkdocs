@@ -43,6 +43,7 @@ Grove側の端子で、素直に動きます。Groveの電源が5Vですが、�
 ## データシート
 - メインチップ [[ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)] [[ESP32 FAQ](https://www.espressif.com/sites/default/files/documentation/ESP32_FAQs__EN.pdf)]
 - メインボード [[ESP32-PICO-D4](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf)]
+- M5StickC回路図 [[回路図](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)]
 - TFTスクリーン [[ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)]
 - マイクロフォン [[SPM1423](https://github.com/m5stack/M5-Schematic/blob/master/Core/SPM1423HM4H-B.pdf)]
 - 6-axis IMU [[SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)]
