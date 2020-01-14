@@ -9,6 +9,7 @@ M5StickCは何個かのバージョン(世代)があり、バージョンによ�
 | 2           | MPU6868 | 100mAバグ | 後期のみ | 無し   | MPU6868で5V INが赤              |
 | 3           | MPU6868 | 正常      | 有り     | 無し   | MPU6868で5V INが青、RTC表示追加 |
 | 4           | MPU6868 | 100mAバグ | 有り     | 有り   | MPU6868で5V INが赤              |
+| 5           | MPU6868 | 正常      | 有り     | 有り   | MPU6868で5V INが青、RTC表示追加 |
 
 ## バージョン 0(試作機？)
 
@@ -62,6 +63,13 @@ BtnBを押すと100mA以上電流が流れる不具合はなおっています�
 
 本体仕様的には100mA以上電流が流れる不具合があるので、バージョン 3の方が新しい気がしますが、スクリュー付きで、赤バージョンです。
 今後はスクリュー付きで青バージョンが登場してくると思われます。
+
+## バージョン 5(青スクリュー付き)
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">M5StickCネジ青のperfect version検証 – Lang-ship<br><br>とりあえずネジ付き青バージョンの電源周りだけ確認しました <a href="https://t.co/cc9fFS9V5Q">https://t.co/cc9fFS9V5Q</a></p>&mdash; たなかまさゆき (@tnkmasayuki) <a href="https://twitter.com/tnkmasayuki/status/1214111008156868608?ref_src=twsrc%5Etfw">January 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+perfect versionと呼ばれている青ネジ穴付きです。
+基本的にはこのバージョンで完成なのかな？
 
 ## 番外編 白
 
