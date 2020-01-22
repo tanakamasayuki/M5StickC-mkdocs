@@ -6,6 +6,11 @@
 ```python
 _joyC.i2c_bus
 ```
+
+### [unit](../unit/)
+```python
+_joyC.unit
+```
 ## クラス定義
 ### [JoyC](../../class/_joyC.JoyC/)
 ```python

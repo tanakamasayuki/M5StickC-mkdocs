@@ -114,7 +114,7 @@ m5stack.reboot()
 ## 定数
 ### \_\_VERSION\_\_
 ```python
-m5stack.__VERSION__ = str('V1.4.2')
+m5stack.__VERSION__ = str('V1.4.3')
 ```
 ### \_\_file\_\_
 ```python
@@ -126,9 +126,9 @@ m5stack.__name__ = str('m5stack')
 ```
 ### apikey
 ```python
-m5stack.apikey = str('C8E567C6')
+m5stack.apikey = str('4C7F18C9')
 ```
 ### node\_id
 ```python
-m5stack.node_id = str('d8a01d515dbc')
+m5stack.node_id = str('d8a01d56c2ec')
 ```

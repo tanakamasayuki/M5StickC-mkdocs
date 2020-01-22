@@ -52,6 +52,30 @@ i2c_bus.get()
 ```python
 i2c_bus.M_BUS = tuple((21, 22))
 ```
+### PAHUB0
+```python
+i2c_bus.PAHUB0 = tuple((0, None))
+```
+### PAHUB1
+```python
+i2c_bus.PAHUB1 = tuple((1, None))
+```
+### PAHUB2
+```python
+i2c_bus.PAHUB2 = tuple((2, None))
+```
+### PAHUB3
+```python
+i2c_bus.PAHUB3 = tuple((3, None))
+```
+### PAHUB4
+```python
+i2c_bus.PAHUB4 = tuple((4, None))
+```
+### PAHUB5
+```python
+i2c_bus.PAHUB5 = tuple((5, None))
+```
 ### PORTA
 ```python
 i2c_bus.PORTA = tuple((32, 33))

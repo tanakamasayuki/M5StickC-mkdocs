@@ -5,9 +5,19 @@
 
 ## クラスインスタンス
 
+### humidity
+```python
+_yun.Yun.humidity = property()
+```
+
 ### pressure
 ```python
 _yun.Yun.pressure = property()
+```
+
+### temperature
+```python
+_yun.Yun.temperature = property()
 ```
 
 ### values
@@ -35,6 +45,16 @@ _yun.Yun.__init__()
 ### \_available
 ```python
 _yun.Yun._available()
+```
+
+### \_humidity
+```python
+_yun.Yun._humidity()
+```
+
+### checkCRC
+```python
+_yun.Yun.checkCRC()
 ```
 
 ### deinit

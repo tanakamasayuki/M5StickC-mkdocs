@@ -10,6 +10,16 @@
 _joyC.JoyC.GetAngle()
 ```
 
+### GetCalibrationResult
+```python
+_joyC.JoyC.GetCalibrationResult()
+```
+
+### GetCalibrationState
+```python
+_joyC.JoyC.GetCalibrationState()
+```
+
 ### GetDistance
 ```python
 _joyC.JoyC.GetDistance()
@@ -28,6 +38,11 @@ _joyC.JoyC.GetX()
 ### GetY
 ```python
 _joyC.JoyC.GetY()
+```
+
+### SetCalibration
+```python
+_joyC.JoyC.SetCalibration()
 ```
 
 ### SetLedColor

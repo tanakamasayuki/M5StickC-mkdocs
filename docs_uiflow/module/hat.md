@@ -116,5 +116,5 @@ hat.__name__ = str('hat')
 ```
 ### unitMap
 ```python
-hat.unitMap = list([<Env object at 3fff6950>, <Finger object at 3fff75c0>, <Pir object at 3ffe4db0>, <Servo object at 3ffe7e80>, <Speaker object at 3ffe89f0>, <Env object at 3fff53c0>, <Finger object at 3fff5e10>, <Pir object at 3fff8f70>, <Servo object at 3ffe78a0>, <Speaker object at 3ffe8370>, <Env object at 3ffed3d0>, <Finger object at 3ffed930>, <Pir object at 3fff02b0>, <Servo object at 3fff1130>, <Speaker object at 3fff1b30>, <Env object at 3fff1610>, <Finger object at 3fff1ea0>, <Pir object at 3fff63a0>, <Servo object at 3fff7dc0>, <Speaker object at 3fff87a0>, <Env object at 3fff6ba0>, <Finger object at 3fff7c00>, <Pir object at 3ffe7a80>, <Servo object at 3ffe8b20>, <Speaker object at 3ffea480>, <Env object at 3ffee9a0>, <Finger object at 3ffef340>, <Pir object at 3fff2190>, <Servo object at 3fff38c0>, <Speaker object at 3fff5070>, <Env object at 3fff3a10>, <Finger object at 3fff5130>, <Pir object at 3ffe8b00>, <Servo object at 3ffebef0>, <Speaker object at 3ffeccb0>])
+hat.unitMap = list([<Finger object at 3fff7270>, <Pir object at 3fff9250>, <Servo object at 3ffe77a0>, <Speaker object at 3ffe8c90>])
 ```

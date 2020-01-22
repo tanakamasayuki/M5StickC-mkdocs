@@ -68,6 +68,7 @@
 - [m5base](../module/m5base/)
 - [m5stack](../module/m5stack/)
 - [m5uart](../module/m5uart/)
+- [m5ucloud](../module/m5ucloud/)
 - [m5ui](../module/m5ui/)
 - [machine](../module/machine/)
 - [math](../module/math/)
