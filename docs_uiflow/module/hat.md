@@ -78,6 +78,10 @@ hat.NCIR = str('ncir')
 ```python
 hat.PIR = str('pir')
 ```
+### POWERC
+```python
+hat.POWERC = str('powerc')
+```
 ### PUPPY
 ```python
 hat.PUPPY = str('puppy')
@@ -116,5 +120,5 @@ hat.__name__ = str('hat')
 ```
 ### unitMap
 ```python
-hat.unitMap = list([<Finger object at 3fff7270>, <Pir object at 3fff9250>, <Servo object at 3ffe77a0>, <Speaker object at 3ffe8c90>])
+hat.unitMap = list([<Finger object at 3fff6140>, <Pir object at 3fff8120>, <Powerc object at 3fff8560>, <Servo object at 3fff92f0>, <Speaker object at 3ffe7230>, <Finger object at 3fff04f0>, <Pir object at 3fff3a20>, <Powerc object at 3fff3f90>, <Servo object at 3fff53b0>, <Speaker object at 3fff6770>])
 ```

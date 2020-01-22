@@ -62,6 +62,11 @@ hats._ncir
 hats._pir
 ```
 
+### [\_powerc](../_powerc/)
+```python
+hats._powerc
+```
+
 ### [\_puppy](../_puppy/)
 ```python
 hats._puppy

@@ -2,6 +2,11 @@
 
 ## モジュール
 
+### [\_accel](../_accel/)
+```python
+units._accel
+```
+
 ### [\_adc](../_adc/)
 ```python
 units._adc

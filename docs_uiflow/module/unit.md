@@ -43,6 +43,10 @@ unit.portApply()
 unit.portFree()
 ```
 ## 定数
+### ACCEL
+```python
+unit.ACCEL = tuple(('accel', 255))
+```
 ### ADC
 ```python
 unit.ADC = tuple(('adc', 255))

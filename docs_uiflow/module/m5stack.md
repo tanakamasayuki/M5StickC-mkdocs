@@ -114,7 +114,7 @@ m5stack.reboot()
 ## 定数
 ### \_\_VERSION\_\_
 ```python
-m5stack.__VERSION__ = str('V1.4.3')
+m5stack.__VERSION__ = str('V1.4.4')
 ```
 ### \_\_file\_\_
 ```python

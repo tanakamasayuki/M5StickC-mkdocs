@@ -1,4 +1,8 @@
 # クラス一覧
+- [_accel.ADXL345](../class/_accel.ADXL345/)
+- [_accel.Accel](../class/_accel.Accel/)
+- [_accel.DataRate](../class/_accel.DataRate/)
+- [_accel.Range](../class/_accel.Range/)
 - [_adc.Adc](../class/_adc.Adc/)
 - [_angle.Angle](../class/_angle.Angle/)
 - [_beetlec.Beetlec](../class/_beetlec.Beetlec/)
@@ -26,6 +30,7 @@
 - [_pbhub.Pbhub](../class/_pbhub.Pbhub/)
 - [_pir.Pin](../class/_pir.Pin/)
 - [_pir.Pir](../class/_pir.Pir/)
+- [_powerc.Powerc](../class/_powerc.Powerc/)
 - [_puppy.Puppy](../class/_puppy.Puppy/)
 - [_relay.Relay](../class/_relay.Relay/)
 - [_rfid.Rfid](../class/_rfid.Rfid/)
