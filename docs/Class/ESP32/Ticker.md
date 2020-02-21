@@ -1,6 +1,4 @@
-# Ticker
-
-
+# タイマー(Ticker)
 
 ## 詳細情報
 
@@ -8,13 +6,7 @@
 
 ## メンバー
 
-
-
-
-
-### Ticker()
-
-
+### コンストラクタ Ticker()
 
 ```c
 Ticker::Ticker()
@@ -22,9 +14,7 @@ Ticker::Ticker()
 
 
 
-### ~Ticker()
-
-
+### デストラクタ ~Ticker()
 
 ```c
 Ticker::~Ticker()
@@ -32,8 +22,7 @@ Ticker::~Ticker()
 
 
 
-### attach()
-
+### タイマー追加 attach()
 
 
 ```c
@@ -41,8 +30,8 @@ void Ticker::attach(float seconds, callback_t callback)
 ```
 
 !!! summary "引数"
-	- float `seconds` 
-	- callback_t `callback` 
+	- float `seconds` 秒
+	- callback_t `callback` コールバック関数
 
 
 
@@ -55,8 +44,8 @@ void Ticker::attach_ms(uint32_t milliseconds, callback_t callback)
 ```
 
 !!! summary "引数"
-	- uint32_t `milliseconds` 
-	- callback_t `callback` 
+	- uint32_t `milliseconds` ミリ秒
+	- callback_t `callback` コールバック関数 
 
 
 
@@ -69,9 +58,9 @@ void Ticker::attach(float seconds, void(*callback)(TArg), TArg arg)
 ```
 
 !!! summary "引数"
-	- float `seconds` 
-	- void(*)(TArg) `callback` 
-	- TArg `arg` 
+	- float `seconds` 秒 秒
+	- void(*)(TArg) `callback` コールバック関数コールバック関数
+	- TArg `arg` コールバック関数の引数
 
 
 
@@ -84,9 +73,9 @@ void Ticker::attach_ms(uint32_t milliseconds, void(*callback)(TArg), TArg arg)
 ```
 
 !!! summary "引数"
-	- uint32_t `milliseconds` 
-	- void(*)(TArg) `callback` 
-	- TArg `arg` 
+	- uint32_t `milliseconds` ミリ秒
+	- void(*)(TArg) `callback` コールバック関数
+	- TArg `arg` コールバック関数の引数
 
 
 
@@ -99,8 +88,8 @@ void Ticker::once(float seconds, callback_t callback)
 ```
 
 !!! summary "引数"
-	- float `seconds` 
-	- callback_t `callback` 
+	- float `seconds` 秒 
+	- callback_t `callback` コールバック関数 
 
 
 
@@ -113,8 +102,8 @@ void Ticker::once_ms(uint32_t milliseconds, callback_t callback)
 ```
 
 !!! summary "引数"
-	- uint32_t `milliseconds` 
-	- callback_t `callback` 
+	- uint32_t `milliseconds` ミリ秒
+	- callback_t `callback` コールバック関数 
 
 
 
@@ -127,9 +116,9 @@ void Ticker::once(float seconds, void(*callback)(TArg), TArg arg)
 ```
 
 !!! summary "引数"
-	- float `seconds` 
-	- void(*)(TArg) `callback` 
-	- TArg `arg` 
+	- float `seconds` 秒 
+	- void(*)(TArg) `callback` コールバック関数
+	- TArg `arg` コールバック関数の引数
 
 
 
@@ -142,9 +131,9 @@ void Ticker::once_ms(uint32_t milliseconds, void(*callback)(TArg), TArg arg)
 ```
 
 !!! summary "引数"
-	- uint32_t `milliseconds` 
-	- void(*)(TArg) `callback` 
-	- TArg `arg` 
+	- uint32_t `milliseconds` ミリ秒
+	- void(*)(TArg) `callback` コールバック関数
+	- TArg `arg` コールバック関数の引数
 
 
 
