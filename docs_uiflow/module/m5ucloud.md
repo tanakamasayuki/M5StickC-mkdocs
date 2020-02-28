@@ -228,7 +228,7 @@ m5ucloud.__name__ = str('m5ucloud')
 ```
 ### apikey
 ```python
-m5ucloud.apikey = str('4C7F18C9')
+m5ucloud.apikey = str('2605FE17')
 ```
 ### config\_normal
 ```python

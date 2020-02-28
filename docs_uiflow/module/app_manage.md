@@ -146,7 +146,7 @@ app_manage.__name__ = str('app_manage')
 ```
 ### apikey
 ```python
-app_manage.apikey = str('4C7F18C9')
+app_manage.apikey = str('2605FE17')
 ```
 ### draw\_number\_page
 ```python
