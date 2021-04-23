@@ -24,11 +24,10 @@ Bluetooth LEは複数のプロファイルがありますが、ESP32だとサポ
 
 基本プロファイルのGATT/SMP/GAPは完全サポートで、その他にBLE HID (receiving side), BLE SPP-Like, Battery, DIS, Blu-Fi (Bluetooth Network Configurationtransmitting side)などが実装されているとかかれていますが、Arduino IDE上から使えるとは限りません。
 
-## Arduino IDE ESP32 Library 1.0.3の注意点
-
-同一CharacteristicUUIDがあると、1つしか取得できません。
-
 ## 関連ブログ
+- [M5StickC(ESP32)にWindows10からBLE-MIDIでリアルタイム数値送信をしてみる](https://lang-ship.com/blog/work/m5stickc-esp32-ble-midi/)
+- [M5StickCでBluetooth keyboardを実装してプレゼン用リモコンを作る](https://lang-ship.com/blog/work/m5stickc-bluetooth-keyboard/)
+- [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作(1.0.4対応版)](https://lang-ship.com/blog/work/m5stickc-esp32-bluetooth-shutter-1-0-4/)
 - [ESP32 1.0.3のBLEUUIDについて](https://lang-ship.com/blog/?p=933)
 - [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作(1.0.3対応版)](https://lang-ship.com/blog/?p=929)
 - [M5StickC(ESP32)でダイソーのBluetoothシャッターを操作](https://lang-ship.com/blog/?p=704)

@@ -24,6 +24,7 @@ M5StickC自体がアクセスポイントになり、スマホなどからの接
 
 あまり利用されていないので、積極的に利用はしないほうがよいと思います。
 
+- [ESP32のWi-fi設定方法調査](https://lang-ship.com/blog/work/esp32-wi-fi-setting/)
 - [ESP-Touch](https://www.espressif.com/en/products/software/esp-touch/overview)
 - [(PDF)ESP-TOUCH User Guide](https://www.espressif.com/sites/default/files/documentation/esp-touch_user_guide_en.pdf)
 
@@ -33,8 +34,11 @@ Espressif社のWi-Fiデバイス間で直接通信をするためのプロトコ
 
 250バイトまでのデータを簡単に通信することができます。
 
-特殊な場合を除いて、Wi-Fiルーターなどのアクセスポイントに接続したほうが汎用的な構成になると思います。
+アクセスポイントが必要ない通信ですので、非常にかんたんに利用することができます。
+直接見通せる範囲で簡易的に通信をするのには適していますが、安定した通信をするのであればアクセスポイントに接続した通常のWi-Fi通信の方が安定しやすいと思います。
 
+- [M5StickCでESP-NOW その1](https://lang-ship.com/blog/work/m5stickc-esp-now-1/)
+- [M5StickC(ESP32)での無線通信方式の選び方](https://lang-ship.com/blog/work/m5stickc-esp32-radio/)
 - [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview)
 - [(PDF)ESP-NOW User Guide](https://www.espressif.com/sites/default/files/documentation/esp-now_user_guide_en.pdf)
 
